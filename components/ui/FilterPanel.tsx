@@ -55,6 +55,17 @@ export default function FilterPanel({
 }: FilterPanelProps) {
   const [showAllTags, setShowAllTags] = useState(false);
   const [showAllDistricts, setShowAllDistricts] = useState(false);
+  const [expandedSections, setExpandedSections] = useState({
+    categories: true,
+    tags: true,
+    districts: false,
+    fundingStage: false,
+    teamSize: false,
+  });
+
+  const toggleSection = (section: keyof typeof expandedSections) => {
+    setExpandedSections(prev => ({ ...prev, [section]: !prev[section] }));
+  };
 
   const toggleCategory = (category: EntityCategory) => {
     const newCategories = filters.categories.includes(category)
@@ -113,165 +124,186 @@ export default function FilterPanel({
   const displayTags = showAllTags ? allTags : allTags.slice(0, 10);
   const displayDistricts = showAllDistricts ? allDistricts : allDistricts.slice(0, 8);
 
+  const SectionHeader = ({ title, section, count }: { title: string; section: keyof typeof expandedSections; count?: number }) => (
+    <button
+      onClick={() => toggleSection(section)}
+      className="w-full flex items-center justify-between text-xs font-semibold text-foreground-muted uppercase tracking-wider mb-2 hover:text-foreground transition-colors"
+    >
+      <span className="flex items-center gap-2">
+        {title}
+        {count !== undefined && count > 0 && (
+          <span className="px-1.5 py-0.5 text-[10px] bg-accent text-white rounded-full font-medium">
+            {count}
+          </span>
+        )}
+      </span>
+      <svg
+        className={`w-4 h-4 transition-transform ${expandedSections[section] ? 'rotate-180' : ''}`}
+        fill="none"
+        stroke="currentColor"
+        viewBox="0 0 24 24"
+      >
+        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
+      </svg>
+    </button>
+  );
+
   return (
-    <div className="h-full overflow-y-auto p-4 space-y-6">
+    <div className="h-full overflow-y-auto p-4 space-y-5 bg-background-secondary">
       {/* Results count */}
-      <div className="flex items-center justify-between">
-        <span className="text-sm text-[#888899]">
-          <span className="text-white font-semibold">{filteredCount}</span> von{' '}
-          {totalCount} Organisationen
+      <div className="flex items-center justify-between p-3 bg-background-tertiary rounded-xl">
+        <span className="text-sm text-foreground-muted">
+          <span className="text-foreground font-bold text-lg">{filteredCount}</span>
+          <span className="text-foreground-muted"> / {totalCount}</span>
         </span>
         {hasActiveFilters && (
           <button
             onClick={clearAllFilters}
-            className="text-xs text-[#10b981] hover:underline"
+            className="text-xs font-medium text-accent hover:text-accent/80 transition-colors flex items-center gap-1"
           >
-            Filter zurücksetzen
+            <svg className="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
+            </svg>
+            Zurücksetzen
           </button>
         )}
       </div>
 
       {/* Search */}
       <div>
-        <label className="block text-xs font-semibold text-[#888899] uppercase tracking-wider mb-2">
+        <label className="block text-xs font-semibold text-foreground-muted uppercase tracking-wider mb-2">
           Suche
         </label>
-        <input
-          type="search"
-          placeholder="Name, Tags, Beschreibung..."
-          value={filters.search}
-          onChange={(e) => onFiltersChange({ ...filters, search: e.target.value })}
-          className="w-full"
-        />
+        <div className="relative">
+          <svg
+            className="absolute left-3 top-1/2 -translate-y-1/2 w-4 h-4 text-foreground-muted"
+            fill="none"
+            stroke="currentColor"
+            viewBox="0 0 24 24"
+          >
+            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
+          </svg>
+          <input
+            type="search"
+            placeholder="Name, Tags, Beschreibung..."
+            value={filters.search}
+            onChange={(e) => onFiltersChange({ ...filters, search: e.target.value })}
+            className="w-full pl-10"
+          />
+        </div>
       </div>
 
       {/* Categories */}
       <div>
-        <label className="block text-xs font-semibold text-[#888899] uppercase tracking-wider mb-2">
-          Kategorien
-        </label>
-        <div className="space-y-1">
-          {CATEGORIES.map((category) => (
-            <label key={category} className="filter-checkbox">
-              <input
-                type="checkbox"
-                checked={filters.categories.includes(category)}
-                onChange={() => toggleCategory(category)}
-              />
-              <div
-                className="w-3 h-3 rounded-full"
-                style={{ background: CATEGORY_COLORS_MAP[category] }}
-              />
-              <span className="text-sm text-white">
-                {CATEGORY_LABELS[category]}
-              </span>
-            </label>
-          ))}
-        </div>
+        <SectionHeader title="Kategorien" section="categories" count={filters.categories.length} />
+        {expandedSections.categories && (
+          <div className="space-y-1 animate-fadeIn">
+            {CATEGORIES.map((category) => (
+              <label key={category} className="filter-checkbox">
+                <input
+                  type="checkbox"
+                  checked={filters.categories.includes(category)}
+                  onChange={() => toggleCategory(category)}
+                />
+                <div
+                  className="w-3 h-3 rounded-full shadow-sm"
+                  style={{ background: CATEGORY_COLORS_MAP[category] }}
+                />
+                <span className="text-sm text-foreground">
+                  {CATEGORY_LABELS[category]}
+                </span>
+              </label>
+            ))}
+          </div>
+        )}
       </div>
 
       {/* Tags/Subcategories */}
       <div>
-        <label className="block text-xs font-semibold text-[#888899] uppercase tracking-wider mb-2">
-          Tags
-        </label>
-        <div className="flex flex-wrap gap-1.5">
-          {displayTags.map((tag) => (
-            <button
-              key={tag}
-              onClick={() => toggleSubcategory(tag)}
-              className={`px-2.5 py-1 text-xs rounded-full transition-colors ${
-                filters.subcategories.includes(tag)
-                  ? 'bg-[#10b981] text-[#0a0a0f]'
-                  : 'bg-[#1a1a24] text-[#888899] hover:bg-[#2a2a3a]'
-              }`}
-            >
-              {tag}
-            </button>
-          ))}
-          {allTags.length > 10 && (
-            <button
-              onClick={() => setShowAllTags(!showAllTags)}
-              className="px-2.5 py-1 text-xs text-[#10b981] hover:underline"
-            >
-              {showAllTags ? 'Weniger anzeigen' : `+${allTags.length - 10} mehr`}
-            </button>
-          )}
-        </div>
+        <SectionHeader title="Tags" section="tags" count={filters.subcategories.length} />
+        {expandedSections.tags && (
+          <div className="flex flex-wrap gap-1.5 animate-fadeIn">
+            {displayTags.map((tag) => (
+              <button
+                key={tag}
+                onClick={() => toggleSubcategory(tag)}
+                className={`tag-pill ${filters.subcategories.includes(tag) ? 'active' : ''}`}
+              >
+                {tag}
+              </button>
+            ))}
+            {allTags.length > 10 && (
+              <button
+                onClick={() => setShowAllTags(!showAllTags)}
+                className="px-2.5 py-1 text-xs text-accent hover:underline font-medium"
+              >
+                {showAllTags ? 'Weniger' : `+${allTags.length - 10}`}
+              </button>
+            )}
+          </div>
+        )}
       </div>
 
       {/* Districts */}
       <div>
-        <label className="block text-xs font-semibold text-[#888899] uppercase tracking-wider mb-2">
-          Bezirke
-        </label>
-        <div className="flex flex-wrap gap-1.5">
-          {displayDistricts.map((district) => (
-            <button
-              key={district}
-              onClick={() => toggleDistrict(district)}
-              className={`px-2.5 py-1 text-xs rounded-full transition-colors ${
-                filters.districts.includes(district)
-                  ? 'bg-[#10b981] text-[#0a0a0f]'
-                  : 'bg-[#1a1a24] text-[#888899] hover:bg-[#2a2a3a]'
-              }`}
-            >
-              {district}
-            </button>
-          ))}
-          {allDistricts.length > 8 && (
-            <button
-              onClick={() => setShowAllDistricts(!showAllDistricts)}
-              className="px-2.5 py-1 text-xs text-[#10b981] hover:underline"
-            >
-              {showAllDistricts ? 'Weniger' : `+${allDistricts.length - 8}`}
-            </button>
-          )}
-        </div>
+        <SectionHeader title="Bezirke" section="districts" count={filters.districts.length} />
+        {expandedSections.districts && (
+          <div className="flex flex-wrap gap-1.5 animate-fadeIn">
+            {displayDistricts.map((district) => (
+              <button
+                key={district}
+                onClick={() => toggleDistrict(district)}
+                className={`tag-pill ${filters.districts.includes(district) ? 'active' : ''}`}
+              >
+                {district}
+              </button>
+            ))}
+            {allDistricts.length > 8 && (
+              <button
+                onClick={() => setShowAllDistricts(!showAllDistricts)}
+                className="px-2.5 py-1 text-xs text-accent hover:underline font-medium"
+              >
+                {showAllDistricts ? 'Weniger' : `+${allDistricts.length - 8}`}
+              </button>
+            )}
+          </div>
+        )}
       </div>
 
       {/* Funding Stage */}
       <div>
-        <label className="block text-xs font-semibold text-[#888899] uppercase tracking-wider mb-2">
-          Funding Stage
-        </label>
-        <div className="flex flex-wrap gap-1.5">
-          {FUNDING_STAGES.map((stage) => (
-            <button
-              key={stage.value}
-              onClick={() => toggleFundingStage(stage.value)}
-              className={`px-2.5 py-1 text-xs rounded-full transition-colors ${
-                filters.fundingStages.includes(stage.value as any)
-                  ? 'bg-[#10b981] text-[#0a0a0f]'
-                  : 'bg-[#1a1a24] text-[#888899] hover:bg-[#2a2a3a]'
-              }`}
-            >
-              {stage.label}
-            </button>
-          ))}
-        </div>
+        <SectionHeader title="Funding Stage" section="fundingStage" count={filters.fundingStages.length} />
+        {expandedSections.fundingStage && (
+          <div className="flex flex-wrap gap-1.5 animate-fadeIn">
+            {FUNDING_STAGES.map((stage) => (
+              <button
+                key={stage.value}
+                onClick={() => toggleFundingStage(stage.value)}
+                className={`tag-pill ${filters.fundingStages.includes(stage.value as any) ? 'active' : ''}`}
+              >
+                {stage.label}
+              </button>
+            ))}
+          </div>
+        )}
       </div>
 
       {/* Team Size */}
       <div>
-        <label className="block text-xs font-semibold text-[#888899] uppercase tracking-wider mb-2">
-          Team-Größe
-        </label>
-        <div className="flex flex-wrap gap-1.5">
-          {TEAM_SIZES.map((size) => (
-            <button
-              key={size}
-              onClick={() => toggleTeamSize(size)}
-              className={`px-2.5 py-1 text-xs rounded-full transition-colors ${
-                filters.teamSizes.includes(size as any)
-                  ? 'bg-[#10b981] text-[#0a0a0f]'
-                  : 'bg-[#1a1a24] text-[#888899] hover:bg-[#2a2a3a]'
-              }`}
-            >
-              {size}
-            </button>
-          ))}
-        </div>
+        <SectionHeader title="Team-Größe" section="teamSize" count={filters.teamSizes.length} />
+        {expandedSections.teamSize && (
+          <div className="flex flex-wrap gap-1.5 animate-fadeIn">
+            {TEAM_SIZES.map((size) => (
+              <button
+                key={size}
+                onClick={() => toggleTeamSize(size)}
+                className={`tag-pill ${filters.teamSizes.includes(size as any) ? 'active' : ''}`}
+              >
+                {size}
+              </button>
+            ))}
+          </div>
+        )}
       </div>
     </div>
   );

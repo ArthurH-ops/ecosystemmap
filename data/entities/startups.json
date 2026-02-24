@@ -373,7 +373,7 @@
     "name": "Prewave",
     "category": "startup",
     "subcategory": "ai",
-    "description": "AI-powered supply chain risk monitoring platform that detects disruptions and sustainability issues using multilingual news analysis.",
+    "description": "AI-powered supply chain risk intelligence platform detecting disruptions and sustainability issues using real-time multilingual news analysis.",
     "website": "https://www.prewave.ai",
     "logo_url": "/logos/prewave.png",
     "location": {
@@ -384,8 +384,8 @@
     },
     "founded_year": 2017,
     "tags": ["ai", "supply-chain", "b2b", "sustainability", "risk"],
-    "funding_stage": "series-a",
-    "total_funding_eur": 18000000,
+    "funding_stage": "series-b",
+    "total_funding_eur": 83000000,
     "team_size": "11-50",
     "connections": [
       {"target_id": "speedinvest", "relationship": "funded_by"},
@@ -458,7 +458,7 @@
     "name": "Gropyus",
     "category": "startup",
     "subcategory": "proptech",
-    "description": "Proptech company building affordable, sustainable timber homes using digital twin technology and automated manufacturing.",
+    "description": "Proptech company revolutionizing construction with sustainable, affordable timber-hybrid buildings through digitalized and automated manufacturing.",
     "website": "https://www.gropyus.com",
     "logo_url": "/logos/gropyus.png",
     "location": {
@@ -470,7 +470,7 @@
     "founded_year": 2019,
     "tags": ["proptech", "sustainability", "construction", "deeptech", "climate"],
     "funding_stage": "series-b",
-    "total_funding_eur": 100000000,
+    "total_funding_eur": 200000000,
     "team_size": "51-200",
     "connections": [],
     "social": {
@@ -1360,6 +1360,1297 @@
     ],
     "social": {
       "linkedin": "https://www.linkedin.com/company/genspeed-biotech"
+    },
+    "last_updated": "2025-02-24",
+    "data_source": "web_research"
+  },
+  {
+    "id": "blockpit",
+    "name": "Blockpit",
+    "category": "startup",
+    "subcategory": "fintech",
+    "description": "SaaS platform for monitoring, analyzing, and managing digital assets with TAX and Anti-Money Laundering compliance solutions for the crypto space.",
+    "website": "https://www.blockpit.io",
+    "logo_url": "/logos/blockpit.png",
+    "location": {
+      "address": "Peter-Behrens-Platz 10, 4020 Linz",
+      "district": "Linz",
+      "lat": 48.3064,
+      "lng": 14.2858
+    },
+    "founded_year": 2017,
+    "tags": ["fintech", "crypto", "compliance", "b2b", "saas"],
+    "funding_stage": "series-a",
+    "total_funding_eur": 11000000,
+    "team_size": "51-200",
+    "connections": [],
+    "social": {
+      "linkedin": "https://www.linkedin.com/company/blockpit"
+    },
+    "last_updated": "2025-02-24",
+    "data_source": "web_research"
+  },
+  {
+    "id": "morpher",
+    "name": "Morpher",
+    "category": "startup",
+    "subcategory": "fintech",
+    "description": "DeFi trading platform leveraging blockchain technology to enable users to trade virtual replicas of real-world financial markets through its proprietary protocol.",
+    "website": "https://www.morpher.com",
+    "logo_url": "/logos/morpher.png",
+    "location": {
+      "address": "Mariahilfer Straße 45, 1060 Wien",
+      "district": "6",
+      "lat": 48.1969,
+      "lng": 16.3512
+    },
+    "founded_year": 2018,
+    "tags": ["fintech", "defi", "crypto", "blockchain", "trading"],
+    "funding_stage": "series-a",
+    "total_funding_eur": 5200000,
+    "team_size": "11-50",
+    "connections": [],
+    "social": {
+      "linkedin": "https://www.linkedin.com/company/morpher"
+    },
+    "last_updated": "2025-02-24",
+    "data_source": "web_research"
+  },
+  {
+    "id": "neoom",
+    "name": "Neoom",
+    "category": "startup",
+    "subcategory": "cleantech",
+    "description": "Cleantech company accelerating the global energy transition through decentralised, renewable energy systems with integrated hardware and software solutions.",
+    "website": "https://www.neoom.com",
+    "logo_url": "/logos/neoom.png",
+    "location": {
+      "address": "Mühlviertel, 4120 Neufelden",
+      "district": "Mühlviertel",
+      "lat": 48.4889,
+      "lng": 13.9892
+    },
+    "founded_year": 2019,
+    "tags": ["cleantech", "energy", "sustainability", "b2b", "climate"],
+    "funding_stage": "series-b",
+    "total_funding_eur": 30000000,
+    "team_size": "51-200",
+    "connections": [],
+    "social": {
+      "linkedin": "https://www.linkedin.com/company/neoom"
+    },
+    "last_updated": "2025-02-24",
+    "data_source": "web_research"
+  },
+  {
+    "id": "cyclotech",
+    "name": "CycloTech",
+    "category": "startup",
+    "subcategory": "deeptech",
+    "description": "Aerospace company specializing in advanced propulsion systems using CycloRotor technology for next-generation air mobility with 360° thrust vectoring.",
+    "website": "https://www.cyclotech.at",
+    "logo_url": "/logos/cyclotech.png",
+    "location": {
+      "address": "Linz, Austria",
+      "district": "Linz",
+      "lat": 48.3064,
+      "lng": 14.2858
+    },
+    "founded_year": 2019,
+    "tags": ["deeptech", "aerospace", "mobility", "hardware", "evtol"],
+    "funding_stage": "series-a",
+    "total_funding_eur": 20000000,
+    "team_size": "51-200",
+    "connections": [],
+    "social": {
+      "linkedin": "https://www.linkedin.com/company/cyclotech"
+    },
+    "last_updated": "2025-02-24",
+    "data_source": "web_research"
+  },
+  {
+    "id": "enspired",
+    "name": "Enspired",
+    "category": "startup",
+    "subcategory": "cleantech",
+    "description": "Energy tech company specializing in AI-driven trading-as-a-service for flexible power assets, optimizing battery storage and virtual power plants.",
+    "website": "https://www.enspired.energy",
+    "logo_url": "/logos/enspired.png",
+    "location": {
+      "address": "Wipplingerstraße 12, 1010 Wien",
+      "district": "1",
+      "lat": 48.2134,
+      "lng": 16.3678
+    },
+    "founded_year": 2020,
+    "tags": ["cleantech", "energy", "ai", "b2b", "trading"],
+    "funding_stage": "series-b",
+    "total_funding_eur": 25500000,
+    "team_size": "51-200",
+    "connections": [],
+    "social": {
+      "linkedin": "https://www.linkedin.com/company/enspired"
+    },
+    "last_updated": "2025-02-24",
+    "data_source": "web_research"
+  },
+  {
+    "id": "planradar",
+    "name": "PlanRadar",
+    "category": "startup",
+    "subcategory": "proptech",
+    "description": "PropTech platform simplifying work processes on construction and real estate projects with digital documentation and communication tools.",
+    "website": "https://www.planradar.com",
+    "logo_url": "/logos/planradar.png",
+    "location": {
+      "address": "Siebensterngasse 21, 1070 Wien",
+      "district": "7",
+      "lat": 48.2019,
+      "lng": 16.3489
+    },
+    "founded_year": 2013,
+    "tags": ["proptech", "construction", "saas", "b2b", "enterprise"],
+    "funding_stage": "growth",
+    "total_funding_eur": 70000000,
+    "team_size": "200+",
+    "connections": [
+      {"target_id": "speedinvest", "relationship": "funded_by"}
+    ],
+    "social": {
+      "linkedin": "https://www.linkedin.com/company/planradar"
+    },
+    "last_updated": "2025-02-24",
+    "data_source": "web_research"
+  },
+  {
+    "id": "toolsense",
+    "name": "ToolSense",
+    "category": "startup",
+    "subcategory": "saas",
+    "description": "IoT-enabled asset operations platform digitizing maintenance, repair, and asset lifecycle processes for construction, facility management, and logistics.",
+    "website": "https://www.toolsense.io",
+    "logo_url": "/logos/toolsense.png",
+    "location": {
+      "address": "Mariahilfer Straße 77, 1060 Wien",
+      "district": "6",
+      "lat": 48.1959,
+      "lng": 16.3489
+    },
+    "founded_year": 2017,
+    "tags": ["saas", "iot", "b2b", "enterprise", "logistics"],
+    "funding_stage": "growth",
+    "total_funding_eur": 15000000,
+    "team_size": "51-200",
+    "connections": [],
+    "social": {
+      "linkedin": "https://www.linkedin.com/company/toolsense"
+    },
+    "last_updated": "2025-02-24",
+    "data_source": "web_research"
+  },
+  {
+    "id": "finmatics",
+    "name": "Finmatics",
+    "category": "startup",
+    "subcategory": "fintech",
+    "description": "AI-driven tools platform for accountants automating document processing, capture, and pre-accounting with time savings up to 70%.",
+    "website": "https://www.finmatics.com",
+    "logo_url": "/logos/finmatics.png",
+    "location": {
+      "address": "Spengergasse 37-39, 1050 Wien",
+      "district": "5",
+      "lat": 48.1889,
+      "lng": 16.3534
+    },
+    "founded_year": 2016,
+    "tags": ["fintech", "ai", "saas", "b2b", "automation"],
+    "funding_stage": "series-a",
+    "total_funding_eur": 6000000,
+    "team_size": "11-50",
+    "connections": [],
+    "social": {
+      "linkedin": "https://www.linkedin.com/company/finmatics"
+    },
+    "last_updated": "2025-02-24",
+    "data_source": "web_research"
+  },
+  {
+    "id": "blackshark-ai",
+    "name": "Blackshark.ai",
+    "category": "startup",
+    "subcategory": "ai",
+    "description": "AI-based object detection and 3D digital twin creation of the entire planet, powering Microsoft Flight Simulator and serving defense and simulation industries.",
+    "website": "https://www.blackshark.ai",
+    "logo_url": "/logos/blackshark-ai.png",
+    "location": {
+      "address": "Graz, Austria",
+      "district": "Graz",
+      "lat": 47.0707,
+      "lng": 15.4395
+    },
+    "founded_year": 2020,
+    "tags": ["ai", "geospatial", "deeptech", "b2b", "simulation"],
+    "funding_stage": "series-a",
+    "total_funding_eur": 32000000,
+    "team_size": "51-200",
+    "connections": [],
+    "social": {
+      "linkedin": "https://www.linkedin.com/company/blackshark-ai"
+    },
+    "last_updated": "2025-02-24",
+    "data_source": "web_research"
+  },
+  {
+    "id": "emotion3d",
+    "name": "Emotion3D",
+    "category": "startup",
+    "subcategory": "ai",
+    "description": "Camera-based cabin monitoring solutions for vehicles using ML algorithms to analyze humans and objects for comfort and safety applications.",
+    "website": "https://www.emotion3d.ai",
+    "logo_url": "/logos/emotion3d.png",
+    "location": {
+      "address": "Graz, Austria",
+      "district": "Graz",
+      "lat": 47.0707,
+      "lng": 15.4395
+    },
+    "founded_year": 2016,
+    "tags": ["ai", "automotive", "deeptech", "b2b", "computer-vision"],
+    "funding_stage": "series-a",
+    "total_funding_eur": 8000000,
+    "team_size": "11-50",
+    "connections": [],
+    "social": {
+      "linkedin": "https://www.linkedin.com/company/emotion3d"
+    },
+    "last_updated": "2025-02-24",
+    "data_source": "web_research"
+  },
+  {
+    "id": "deepopinion",
+    "name": "DeepOpinion",
+    "category": "startup",
+    "subcategory": "ai",
+    "description": "Agentic automation platform for enterprise business process applications, combining process digitization, low-code development, and AI agents.",
+    "website": "https://www.deepopinion.ai",
+    "logo_url": "/logos/deepopinion.png",
+    "location": {
+      "address": "Innsbruck, Austria",
+      "district": "Innsbruck",
+      "lat": 47.2692,
+      "lng": 11.4041
+    },
+    "founded_year": 2018,
+    "tags": ["ai", "automation", "enterprise", "b2b", "saas"],
+    "funding_stage": "series-a",
+    "total_funding_eur": 12000000,
+    "team_size": "11-50",
+    "connections": [],
+    "social": {
+      "linkedin": "https://www.linkedin.com/company/deepopinion"
+    },
+    "last_updated": "2025-02-24",
+    "data_source": "web_research"
+  },
+  {
+    "id": "fermify",
+    "name": "Fermify",
+    "category": "startup",
+    "subcategory": "foodtech",
+    "description": "Biotechnology startup using precision fermentation to create sustainable animal-free casein for the dairy alternative market.",
+    "website": "https://www.fermify.com",
+    "logo_url": "/logos/fermify.png",
+    "location": {
+      "address": "Vienna BioCenter, 1030 Wien",
+      "district": "3",
+      "lat": 48.1891,
+      "lng": 16.4025
+    },
+    "founded_year": 2021,
+    "tags": ["foodtech", "biotech", "sustainability", "b2b", "deeptech"],
+    "funding_stage": "seed",
+    "total_funding_eur": 6400000,
+    "team_size": "11-50",
+    "connections": [
+      {"target_id": "vienna-biocenter", "relationship": "incubated_by"}
+    ],
+    "social": {
+      "linkedin": "https://www.linkedin.com/company/fermify"
+    },
+    "last_updated": "2025-02-24",
+    "data_source": "web_research"
+  },
+  {
+    "id": "neoh",
+    "name": "NEOH",
+    "category": "startup",
+    "subcategory": "foodtech",
+    "description": "Confectionery company specializing in zero added sugar snacks using proprietary ZERO+ sugar substitute technology for chocolate bars, wafers, and protein bars.",
+    "website": "https://www.neoh.com",
+    "logo_url": "/logos/neoh.png",
+    "location": {
+      "address": "Taborstraße 18, 1020 Wien",
+      "district": "2",
+      "lat": 48.2189,
+      "lng": 16.3834
+    },
+    "founded_year": 2017,
+    "tags": ["foodtech", "consumer", "b2c", "health", "snacks"],
+    "funding_stage": "series-a",
+    "total_funding_eur": 7300000,
+    "team_size": "11-50",
+    "connections": [],
+    "social": {
+      "linkedin": "https://www.linkedin.com/company/neoh"
+    },
+    "last_updated": "2025-02-24",
+    "data_source": "web_research"
+  },
+  {
+    "id": "revo-foods",
+    "name": "Revo Foods",
+    "category": "startup",
+    "subcategory": "foodtech",
+    "description": "3D food printing company operating the world's largest industrial facility for additive food production, creating plant-based seafood alternatives.",
+    "website": "https://www.revo-foods.com",
+    "logo_url": "/logos/revo-foods.png",
+    "location": {
+      "address": "Vienna, Austria",
+      "district": "22",
+      "lat": 48.2339,
+      "lng": 16.4099
+    },
+    "founded_year": 2021,
+    "tags": ["foodtech", "3d-printing", "sustainability", "b2c", "deeptech"],
+    "funding_stage": "series-a",
+    "total_funding_eur": 12000000,
+    "team_size": "11-50",
+    "connections": [],
+    "social": {
+      "linkedin": "https://www.linkedin.com/company/revo-foods"
+    },
+    "last_updated": "2025-02-24",
+    "data_source": "web_research"
+  },
+  {
+    "id": "orderlion",
+    "name": "Orderlion",
+    "category": "startup",
+    "subcategory": "saas",
+    "description": "B2B SaaS platform helping food and beverage wholesalers digitize their operations and scale the global B2B food supply chain.",
+    "website": "https://www.orderlion.com",
+    "logo_url": "/logos/orderlion.png",
+    "location": {
+      "address": "Schottenfeldgasse 60, 1070 Wien",
+      "district": "7",
+      "lat": 48.2019,
+      "lng": 16.3467
+    },
+    "founded_year": 2018,
+    "tags": ["saas", "foodtech", "logistics", "b2b", "marketplace"],
+    "funding_stage": "series-a",
+    "total_funding_eur": 7500000,
+    "team_size": "11-50",
+    "connections": [],
+    "social": {
+      "linkedin": "https://www.linkedin.com/company/orderlion"
+    },
+    "last_updated": "2025-02-24",
+    "data_source": "web_research"
+  },
+  {
+    "id": "cogvis",
+    "name": "Cogvis",
+    "category": "startup",
+    "subcategory": "healthtech",
+    "description": "AI-based 3D sensor company providing fall detection and prevention solutions for healthcare facilities, reducing falls by up to 72%.",
+    "website": "https://www.cogvis.ai",
+    "logo_url": "/logos/cogvis.png",
+    "location": {
+      "address": "Vienna, Austria",
+      "district": "4",
+      "lat": 48.1945,
+      "lng": 16.3678
+    },
+    "founded_year": 2007,
+    "tags": ["healthtech", "ai", "hardware", "b2b", "eldercare"],
+    "funding_stage": "series-a",
+    "total_funding_eur": 5000000,
+    "team_size": "11-50",
+    "connections": [
+      {"target_id": "tu-wien", "relationship": "spinoff_from"}
+    ],
+    "social": {
+      "linkedin": "https://www.linkedin.com/company/cogvis-gmbh"
+    },
+    "last_updated": "2025-02-24",
+    "data_source": "web_research"
+  },
+  {
+    "id": "sendance",
+    "name": "Sendance",
+    "category": "startup",
+    "subcategory": "healthtech",
+    "description": "Deep-tech startup creating advanced sensor grids integrated into textiles for health tech, prosthetics, and sports applications.",
+    "website": "https://www.sendance.at",
+    "logo_url": "/logos/sendance.png",
+    "location": {
+      "address": "Linz, Austria",
+      "district": "Linz",
+      "lat": 48.3064,
+      "lng": 14.2858
+    },
+    "founded_year": 2021,
+    "tags": ["healthtech", "deeptech", "hardware", "b2b", "sports"],
+    "funding_stage": "seed",
+    "total_funding_eur": 2000000,
+    "team_size": "11-50",
+    "connections": [],
+    "social": {
+      "linkedin": "https://www.linkedin.com/company/sendance"
+    },
+    "last_updated": "2025-02-24",
+    "data_source": "web_research"
+  },
+  {
+    "id": "propcorn",
+    "name": "Propcorn",
+    "category": "startup",
+    "subcategory": "proptech",
+    "description": "AI-powered search engine for the property industry helping investors and urban planners find and analyze real estate opportunities.",
+    "website": "https://www.propcorn.ai",
+    "logo_url": "/logos/propcorn.png",
+    "location": {
+      "address": "Vienna, Austria",
+      "district": "1",
+      "lat": 48.2089,
+      "lng": 16.3656
+    },
+    "founded_year": 2024,
+    "tags": ["proptech", "ai", "b2b", "real-estate", "saas"],
+    "funding_stage": "pre-seed",
+    "total_funding_eur": 600000,
+    "team_size": "1-10",
+    "connections": [],
+    "social": {
+      "linkedin": "https://www.linkedin.com/company/propcorn"
+    },
+    "last_updated": "2025-02-24",
+    "data_source": "web_research"
+  },
+  {
+    "id": "lystio",
+    "name": "Lystio",
+    "category": "startup",
+    "subcategory": "proptech",
+    "description": "AI-native real estate portal simplifying property search and matching for renters and buyers across Europe.",
+    "website": "https://www.lystio.co",
+    "logo_url": "/logos/lystio.png",
+    "location": {
+      "address": "Vienna, Austria",
+      "district": "1",
+      "lat": 48.2089,
+      "lng": 16.3656
+    },
+    "founded_year": 2023,
+    "tags": ["proptech", "ai", "b2c", "real-estate", "marketplace"],
+    "funding_stage": "seed",
+    "total_funding_eur": 500000,
+    "team_size": "1-10",
+    "connections": [],
+    "social": {
+      "linkedin": "https://www.linkedin.com/company/lystio"
+    },
+    "last_updated": "2025-02-24",
+    "data_source": "web_research"
+  },
+  {
+    "id": "trality",
+    "name": "Trality",
+    "category": "startup",
+    "subcategory": "fintech",
+    "description": "Platform for creating and investing through automated cryptocurrency trading bots, democratizing algorithmic trading for all skill levels.",
+    "website": "https://www.trality.com",
+    "logo_url": "/logos/trality.png",
+    "location": {
+      "address": "Vienna, Austria",
+      "district": "1",
+      "lat": 48.2089,
+      "lng": 16.3656
+    },
+    "founded_year": 2019,
+    "tags": ["fintech", "crypto", "trading", "b2c", "automation"],
+    "funding_stage": "seed",
+    "total_funding_eur": 3000000,
+    "team_size": "11-50",
+    "connections": [],
+    "social": {
+      "linkedin": "https://www.linkedin.com/company/trality"
+    },
+    "last_updated": "2025-02-24",
+    "data_source": "web_research"
+  },
+  {
+    "id": "bitmovin",
+    "name": "Bitmovin",
+    "category": "startup",
+    "subcategory": "saas",
+    "description": "Emmy award-winning video streaming infrastructure company providing cloud transcoding and adaptive streaming players for Hulu, BBC, and major broadcasters.",
+    "website": "https://www.bitmovin.com",
+    "logo_url": "/logos/bitmovin.png",
+    "location": {
+      "address": "Schleppe Platz 5, 9020 Klagenfurt",
+      "district": "Klagenfurt",
+      "lat": 46.6364,
+      "lng": 14.3122
+    },
+    "founded_year": 2012,
+    "tags": ["saas", "video", "streaming", "b2b", "enterprise"],
+    "funding_stage": "growth",
+    "total_funding_eur": 60000000,
+    "team_size": "200+",
+    "connections": [],
+    "social": {
+      "linkedin": "https://www.linkedin.com/company/bitmovin"
+    },
+    "last_updated": "2025-02-24",
+    "data_source": "web_research"
+  },
+  {
+    "id": "ready2order",
+    "name": "ready2order",
+    "category": "startup",
+    "subcategory": "saas",
+    "description": "Cloud-based point-of-sale and payment applications for small and medium businesses in gastronomy, retail, and beauty sectors.",
+    "website": "https://www.ready2order.com",
+    "logo_url": "/logos/ready2order.png",
+    "location": {
+      "address": "Vienna, Austria",
+      "district": "7",
+      "lat": 48.2019,
+      "lng": 16.3489
+    },
+    "founded_year": 2015,
+    "tags": ["saas", "fintech", "pos", "b2b", "retail"],
+    "funding_stage": "series-a",
+    "total_funding_eur": 5000000,
+    "team_size": "51-200",
+    "connections": [],
+    "social": {
+      "linkedin": "https://www.linkedin.com/company/ready2order"
+    },
+    "last_updated": "2025-02-24",
+    "data_source": "web_research"
+  },
+  {
+    "id": "cropster",
+    "name": "Cropster",
+    "category": "startup",
+    "subcategory": "saas",
+    "description": "Software platform for the specialty coffee industry providing roasting intelligence, quality control, and supply chain management for Starbucks and Whole Foods.",
+    "website": "https://www.cropster.com",
+    "logo_url": "/logos/cropster.png",
+    "location": {
+      "address": "Innsbruck, Austria",
+      "district": "Innsbruck",
+      "lat": 47.2692,
+      "lng": 11.4041
+    },
+    "founded_year": 2008,
+    "tags": ["saas", "foodtech", "coffee", "b2b", "supply-chain"],
+    "funding_stage": "exit",
+    "total_funding_eur": 20000000,
+    "team_size": "51-200",
+    "connections": [],
+    "social": {
+      "linkedin": "https://www.linkedin.com/company/cropster"
+    },
+    "last_updated": "2025-02-24",
+    "data_source": "web_research"
+  },
+  {
+    "id": "inoqo",
+    "name": "inoqo",
+    "category": "startup",
+    "subcategory": "sustainability",
+    "description": "AI-driven SaaS platform measuring the environmental impact of food and beverage products, helping consumers and retailers make sustainable choices.",
+    "website": "https://www.inoqo.com",
+    "logo_url": "/logos/inoqo.png",
+    "location": {
+      "address": "Vienna, Austria",
+      "district": "1",
+      "lat": 48.2089,
+      "lng": 16.3656
+    },
+    "founded_year": 2020,
+    "tags": ["sustainability", "saas", "foodtech", "b2b", "climate"],
+    "funding_stage": "seed",
+    "total_funding_eur": 2500000,
+    "team_size": "11-50",
+    "connections": [],
+    "social": {
+      "linkedin": "https://www.linkedin.com/company/inoqo"
+    },
+    "last_updated": "2025-02-24",
+    "data_source": "web_research"
+  },
+  {
+    "id": "froots",
+    "name": "Froots",
+    "category": "startup",
+    "subcategory": "fintech",
+    "description": "Wealth management fintech making investing accessible with data-based approach to tailor investment portfolios to individual long-term goals.",
+    "website": "https://www.froots.io",
+    "logo_url": "/logos/froots.png",
+    "location": {
+      "address": "Vienna, Austria",
+      "district": "1",
+      "lat": 48.2089,
+      "lng": 16.3656
+    },
+    "founded_year": 2021,
+    "tags": ["fintech", "wealthtech", "b2c", "investing", "robo-advisor"],
+    "funding_stage": "seed",
+    "total_funding_eur": 7000000,
+    "team_size": "11-50",
+    "connections": [],
+    "social": {
+      "linkedin": "https://www.linkedin.com/company/froots"
+    },
+    "last_updated": "2025-02-24",
+    "data_source": "web_research"
+  },
+  {
+    "id": "emmi-ai",
+    "name": "Emmi AI",
+    "category": "startup",
+    "subcategory": "ai",
+    "description": "AI-powered simulation platform for industrial engineering, helping research labs and global engineering teams optimize processes.",
+    "website": "https://www.emmi.ai",
+    "logo_url": "/logos/emmi-ai.png",
+    "location": {
+      "address": "Vienna, Austria",
+      "district": "1",
+      "lat": 48.2089,
+      "lng": 16.3656
+    },
+    "founded_year": 2024,
+    "tags": ["ai", "deeptech", "simulation", "b2b", "engineering"],
+    "funding_stage": "seed",
+    "total_funding_eur": 15000000,
+    "team_size": "11-50",
+    "connections": [],
+    "social": {
+      "linkedin": "https://www.linkedin.com/company/emmi-ai"
+    },
+    "last_updated": "2025-02-24",
+    "data_source": "web_research"
+  },
+  {
+    "id": "jentis",
+    "name": "JENTIS",
+    "category": "startup",
+    "subcategory": "saas",
+    "description": "Server-side tracking technology that shifts website data collection from browsers to secure cloud, trusted by major European e-commerce and banking companies.",
+    "website": "https://www.jentis.com",
+    "logo_url": "/logos/jentis.png",
+    "location": {
+      "address": "Vienna, Austria",
+      "district": "1",
+      "lat": 48.2089,
+      "lng": 16.3656
+    },
+    "founded_year": 2020,
+    "tags": ["saas", "analytics", "privacy", "b2b", "martech"],
+    "funding_stage": "series-a",
+    "total_funding_eur": 11000000,
+    "team_size": "11-50",
+    "connections": [],
+    "social": {
+      "linkedin": "https://www.linkedin.com/company/jentis"
+    },
+    "last_updated": "2025-02-24",
+    "data_source": "web_research"
+  },
+  {
+    "id": "graph-therapeutics",
+    "name": "Graph Therapeutics",
+    "category": "startup",
+    "subcategory": "biotech",
+    "description": "Lab-in-the-loop AI platform revolutionizing drug discovery in inflammation and immunology with precision medicine approach.",
+    "website": "https://www.graphtherapeutics.com",
+    "logo_url": "/logos/graph-therapeutics.png",
+    "location": {
+      "address": "Vienna BioCenter, 1030 Wien",
+      "district": "3",
+      "lat": 48.1891,
+      "lng": 16.4025
+    },
+    "founded_year": 2024,
+    "tags": ["biotech", "ai", "healthtech", "deeptech", "pharma"],
+    "funding_stage": "pre-seed",
+    "total_funding_eur": 3100000,
+    "team_size": "1-10",
+    "connections": [
+      {"target_id": "vienna-biocenter", "relationship": "incubated_by"}
+    ],
+    "social": {
+      "linkedin": "https://www.linkedin.com/company/graph-therapeutics"
+    },
+    "last_updated": "2025-02-24",
+    "data_source": "web_research"
+  },
+  {
+    "id": "tractive",
+    "name": "Tractive",
+    "category": "startup",
+    "subcategory": "consumer",
+    "description": "Leading provider of GPS tracking devices for pets, helping millions of pet owners locate their dogs and cats worldwide.",
+    "website": "https://www.tractive.com",
+    "logo_url": "/logos/tractive.png",
+    "location": {
+      "address": "Pasching, 4061 Linz",
+      "district": "Linz",
+      "lat": 48.2589,
+      "lng": 14.2089
+    },
+    "founded_year": 2012,
+    "tags": ["consumer", "iot", "hardware", "b2c", "pets"],
+    "funding_stage": "series-b",
+    "total_funding_eur": 32000000,
+    "team_size": "51-200",
+    "connections": [],
+    "social": {
+      "linkedin": "https://www.linkedin.com/company/tractive"
+    },
+    "last_updated": "2025-02-24",
+    "data_source": "web_research"
+  },
+  {
+    "id": "usound",
+    "name": "USound",
+    "category": "startup",
+    "subcategory": "deeptech",
+    "description": "Pioneer in MEMS-based micro speakers for mobile devices, wearables, and hearables, backed by ARM founder Hermann Hauser.",
+    "website": "https://www.usound.com",
+    "logo_url": "/logos/usound.png",
+    "location": {
+      "address": "Graz, Austria",
+      "district": "Graz",
+      "lat": 47.0707,
+      "lng": 15.4395
+    },
+    "founded_year": 2014,
+    "tags": ["deeptech", "hardware", "audio", "b2b", "mems"],
+    "funding_stage": "series-b",
+    "total_funding_eur": 75000000,
+    "team_size": "51-200",
+    "connections": [],
+    "social": {
+      "linkedin": "https://www.linkedin.com/company/usound"
+    },
+    "last_updated": "2025-02-24",
+    "data_source": "web_research"
+  },
+  {
+    "id": "lithoz",
+    "name": "Lithoz",
+    "category": "startup",
+    "subcategory": "deeptech",
+    "description": "Global market leader in ceramic 3D printing, enabling manufacturing of medical implants and high-performance components.",
+    "website": "https://www.lithoz.com",
+    "logo_url": "/logos/lithoz.png",
+    "location": {
+      "address": "Vienna, Austria",
+      "district": "23",
+      "lat": 48.1456,
+      "lng": 16.2889
+    },
+    "founded_year": 2011,
+    "tags": ["deeptech", "3d-printing", "hardware", "b2b", "medtech"],
+    "funding_stage": "growth",
+    "total_funding_eur": 15000000,
+    "team_size": "51-200",
+    "connections": [
+      {"target_id": "tu-wien", "relationship": "spinoff_from"},
+      {"target_id": "inits", "relationship": "incubated_by"}
+    ],
+    "social": {
+      "linkedin": "https://www.linkedin.com/company/lithoz"
+    },
+    "last_updated": "2025-02-24",
+    "data_source": "web_research"
+  },
+  {
+    "id": "playbrush",
+    "name": "Playbrush",
+    "category": "startup",
+    "subcategory": "consumer",
+    "description": "Smart toothbrush connected to mobile games, making teeth brushing fun for children through gamification.",
+    "website": "https://www.playbrush.com",
+    "logo_url": "/logos/playbrush.png",
+    "location": {
+      "address": "Vienna, Austria",
+      "district": "7",
+      "lat": 48.2019,
+      "lng": 16.3489
+    },
+    "founded_year": 2015,
+    "tags": ["consumer", "healthtech", "gaming", "b2c", "kids"],
+    "funding_stage": "series-a",
+    "total_funding_eur": 5000000,
+    "team_size": "11-50",
+    "connections": [
+      {"target_id": "speedinvest", "relationship": "funded_by"}
+    ],
+    "social": {
+      "linkedin": "https://www.linkedin.com/company/playbrush"
+    },
+    "last_updated": "2025-02-24",
+    "data_source": "web_research"
+  },
+  {
+    "id": "agrobiogel",
+    "name": "AgroBiogel",
+    "category": "startup",
+    "subcategory": "sustainability",
+    "description": "BOKU spin-off developing bio-based hydrogel that stores water in soil, reducing watering needs by 40% for sustainable agriculture.",
+    "website": "https://www.agrobiogel.com",
+    "logo_url": "/logos/agrobiogel.png",
+    "location": {
+      "address": "Tulln, Austria",
+      "district": "Tulln",
+      "lat": 48.3289,
+      "lng": 16.0668
+    },
+    "founded_year": 2021,
+    "tags": ["sustainability", "agritech", "climate", "b2b", "deeptech"],
+    "funding_stage": "seed",
+    "total_funding_eur": 2800000,
+    "team_size": "11-50",
+    "connections": [
+      {"target_id": "boku", "relationship": "spinoff_from"}
+    ],
+    "social": {
+      "linkedin": "https://www.linkedin.com/company/agrobiogel"
+    },
+    "last_updated": "2025-02-24",
+    "data_source": "web_research"
+  },
+  {
+    "id": "kern-tec",
+    "name": "Kern Tec",
+    "category": "startup",
+    "subcategory": "foodtech",
+    "description": "Upcycling stone fruit pits from jam and juice processors into ingredients for plant-based dairy and confectionery products.",
+    "website": "https://www.kern-tec.com",
+    "logo_url": "/logos/kern-tec.png",
+    "location": {
+      "address": "Herzogenburg, Austria",
+      "district": "Herzogenburg",
+      "lat": 48.2833,
+      "lng": 15.6833
+    },
+    "founded_year": 2019,
+    "tags": ["foodtech", "sustainability", "b2b", "upcycling", "plant-based"],
+    "funding_stage": "series-a",
+    "total_funding_eur": 12000000,
+    "team_size": "11-50",
+    "connections": [],
+    "social": {
+      "linkedin": "https://www.linkedin.com/company/kern-tec"
+    },
+    "last_updated": "2025-02-24",
+    "data_source": "web_research"
+  },
+  {
+    "id": "swimsol",
+    "name": "Swimsol",
+    "category": "startup",
+    "subcategory": "cleantech",
+    "description": "Global leader in nearshore floating photovoltaic technology, providing floating solar systems for tropical islands like the Maldives.",
+    "website": "https://www.swimsol.com",
+    "logo_url": "/logos/swimsol.png",
+    "location": {
+      "address": "Vienna, Austria",
+      "district": "1",
+      "lat": 48.2089,
+      "lng": 16.3656
+    },
+    "founded_year": 2014,
+    "tags": ["cleantech", "solar", "energy", "b2b", "sustainability"],
+    "funding_stage": "growth",
+    "total_funding_eur": 14000000,
+    "team_size": "11-50",
+    "connections": [],
+    "social": {
+      "linkedin": "https://www.linkedin.com/company/swimsol"
+    },
+    "last_updated": "2025-02-24",
+    "data_source": "web_research"
+  },
+  {
+    "id": "artivive",
+    "name": "Artivive",
+    "category": "startup",
+    "subcategory": "ai",
+    "description": "Leading augmented reality platform connecting classical with digital art, used by 600,000+ creatives and major museums worldwide.",
+    "website": "https://www.artivive.com",
+    "logo_url": "/logos/artivive.png",
+    "location": {
+      "address": "Vienna, Austria",
+      "district": "7",
+      "lat": 48.2019,
+      "lng": 16.3489
+    },
+    "founded_year": 2017,
+    "tags": ["ai", "ar", "art", "b2b", "creative"],
+    "funding_stage": "seed",
+    "total_funding_eur": 3000000,
+    "team_size": "11-50",
+    "connections": [],
+    "social": {
+      "linkedin": "https://www.linkedin.com/company/artivive"
+    },
+    "last_updated": "2025-02-24",
+    "data_source": "web_research"
+  },
+  {
+    "id": "greentube",
+    "name": "Greentube",
+    "category": "startup",
+    "subcategory": "gaming",
+    "description": "NOVOMATIC's digital gaming division and leading full-service provider in online and mobile gaming with $107M revenue.",
+    "website": "https://www.greentube.com",
+    "logo_url": "/logos/greentube.png",
+    "location": {
+      "address": "Vienna, Austria",
+      "district": "5",
+      "lat": 48.1889,
+      "lng": 16.3567
+    },
+    "founded_year": 1997,
+    "tags": ["gaming", "entertainment", "b2b", "mobile", "casino"],
+    "funding_stage": "growth",
+    "total_funding_eur": null,
+    "team_size": "200+",
+    "connections": [],
+    "social": {
+      "linkedin": "https://www.linkedin.com/company/greentube"
+    },
+    "last_updated": "2025-02-24",
+    "data_source": "web_research"
+  },
+  {
+    "id": "zone14",
+    "name": "Zone14",
+    "category": "startup",
+    "subcategory": "ai",
+    "description": "AI-driven sports analytics using deep learning and edge AI to automate football statistics from video recordings.",
+    "website": "https://www.zone14.com",
+    "logo_url": "/logos/zone14.png",
+    "location": {
+      "address": "Vienna, Austria",
+      "district": "1",
+      "lat": 48.2089,
+      "lng": 16.3656
+    },
+    "founded_year": 2019,
+    "tags": ["ai", "sports", "analytics", "b2b", "computer-vision"],
+    "funding_stage": "seed",
+    "total_funding_eur": 2500000,
+    "team_size": "11-50",
+    "connections": [],
+    "social": {
+      "linkedin": "https://www.linkedin.com/company/zone14"
+    },
+    "last_updated": "2025-02-24",
+    "data_source": "web_research"
+  },
+  {
+    "id": "whatchado",
+    "name": "whatchado",
+    "category": "startup",
+    "subcategory": "saas",
+    "description": "Video-based recruiting platform transforming job postings into social recruiting campaigns with Reel-based content.",
+    "website": "https://www.whatchado.com",
+    "logo_url": "/logos/whatchado.png",
+    "location": {
+      "address": "Vienna, Austria",
+      "district": "1",
+      "lat": 48.2089,
+      "lng": 16.3656
+    },
+    "founded_year": 2012,
+    "tags": ["saas", "hr", "recruiting", "b2b", "video"],
+    "funding_stage": "series-a",
+    "total_funding_eur": 5000000,
+    "team_size": "11-50",
+    "connections": [],
+    "social": {
+      "linkedin": "https://www.linkedin.com/company/whatchado"
+    },
+    "last_updated": "2025-02-24",
+    "data_source": "web_research"
+  },
+  {
+    "id": "bsurance",
+    "name": "bsurance",
+    "category": "startup",
+    "subcategory": "fintech",
+    "description": "InsurTech providing embedded insurance covers at point of sale for banks, utilities, and retailers in B2B2C model.",
+    "website": "https://www.bsurance.io",
+    "logo_url": "/logos/bsurance.png",
+    "location": {
+      "address": "Vienna, Austria",
+      "district": "1",
+      "lat": 48.2089,
+      "lng": 16.3656
+    },
+    "founded_year": 2017,
+    "tags": ["fintech", "insurtech", "b2b", "saas", "insurance"],
+    "funding_stage": "series-a",
+    "total_funding_eur": 6000000,
+    "team_size": "11-50",
+    "connections": [],
+    "social": {
+      "linkedin": "https://www.linkedin.com/company/bsurance"
+    },
+    "last_updated": "2025-02-24",
+    "data_source": "web_research"
+  },
+  {
+    "id": "checkyeti",
+    "name": "CheckYeti",
+    "category": "startup",
+    "subcategory": "marketplace",
+    "description": "Europe's largest online platform for booking outdoor activities with 12,000+ offers in 16 countries.",
+    "website": "https://www.checkyeti.com",
+    "logo_url": "/logos/checkyeti.png",
+    "location": {
+      "address": "Vienna, Austria",
+      "district": "1",
+      "lat": 48.2089,
+      "lng": 16.3656
+    },
+    "founded_year": 2014,
+    "tags": ["marketplace", "travel", "outdoor", "b2c", "tourism"],
+    "funding_stage": "series-a",
+    "total_funding_eur": 5250000,
+    "team_size": "11-50",
+    "connections": [],
+    "social": {
+      "linkedin": "https://www.linkedin.com/company/checkyeti"
+    },
+    "last_updated": "2025-02-24",
+    "data_source": "web_research"
+  },
+  {
+    "id": "hokify",
+    "name": "Hokify",
+    "category": "startup",
+    "subcategory": "saas",
+    "description": "Profitable marketplace for mobile blue-collar recruiting with 230K+ monthly active users, acquired by karriere.at.",
+    "website": "https://www.hokify.com",
+    "logo_url": "/logos/hokify.png",
+    "location": {
+      "address": "Vienna, Austria",
+      "district": "1",
+      "lat": 48.2089,
+      "lng": 16.3656
+    },
+    "founded_year": 2015,
+    "tags": ["saas", "hr", "recruiting", "b2b", "mobile"],
+    "funding_stage": "exit",
+    "total_funding_eur": 3000000,
+    "team_size": "11-50",
+    "connections": [],
+    "social": {
+      "linkedin": "https://www.linkedin.com/company/hokify"
+    },
+    "last_updated": "2025-02-24",
+    "data_source": "web_research"
+  },
+  {
+    "id": "signpath",
+    "name": "SignPath",
+    "category": "startup",
+    "subcategory": "saas",
+    "description": "Automated code-signing platform ensuring software integrity from development to distribution, serving Airbus and Hitachi.",
+    "website": "https://www.signpath.io",
+    "logo_url": "/logos/signpath.png",
+    "location": {
+      "address": "Vienna, Austria",
+      "district": "1",
+      "lat": 48.2089,
+      "lng": 16.3656
+    },
+    "founded_year": 2017,
+    "tags": ["saas", "cybersecurity", "devtools", "b2b", "enterprise"],
+    "funding_stage": "series-a",
+    "total_funding_eur": 5000000,
+    "team_size": "11-50",
+    "connections": [],
+    "social": {
+      "linkedin": "https://www.linkedin.com/company/signpath"
+    },
+    "last_updated": "2025-02-24",
+    "data_source": "web_research"
+  },
+  {
+    "id": "cybertrap",
+    "name": "CyberTrap",
+    "category": "startup",
+    "subcategory": "saas",
+    "description": "Cyber deception platform using decoys to detect infiltration events and collect digital forensics on attacker tactics.",
+    "website": "https://www.cybertrap.com",
+    "logo_url": "/logos/cybertrap.png",
+    "location": {
+      "address": "Vienna, Austria",
+      "district": "1",
+      "lat": 48.2089,
+      "lng": 16.3656
+    },
+    "founded_year": 2015,
+    "tags": ["saas", "cybersecurity", "enterprise", "b2b", "deception"],
+    "funding_stage": "series-a",
+    "total_funding_eur": 4000000,
+    "team_size": "11-50",
+    "connections": [],
+    "social": {
+      "linkedin": "https://www.linkedin.com/company/cybertrap"
+    },
+    "last_updated": "2025-02-24",
+    "data_source": "web_research"
+  },
+  {
+    "id": "nuki",
+    "name": "Nuki",
+    "category": "startup",
+    "subcategory": "consumer",
+    "description": "Europe's leading smart home company making physical keys irrelevant with Bluetooth Smart Locks controlled via smartphone.",
+    "website": "https://www.nuki.io",
+    "logo_url": "/logos/nuki.png",
+    "location": {
+      "address": "Graz, Austria",
+      "district": "Graz",
+      "lat": 47.0707,
+      "lng": 15.4395
+    },
+    "founded_year": 2015,
+    "tags": ["consumer", "iot", "smart-home", "b2c", "hardware"],
+    "funding_stage": "series-b",
+    "total_funding_eur": 30000000,
+    "team_size": "51-200",
+    "connections": [],
+    "social": {
+      "linkedin": "https://www.linkedin.com/company/nuki"
+    },
+    "last_updated": "2025-02-24",
+    "data_source": "web_research"
+  },
+  {
+    "id": "cubicure",
+    "name": "Cubicure",
+    "category": "startup",
+    "subcategory": "deeptech",
+    "description": "Pioneer in advanced 3D printing systems for medical devices and industrial manufacturing, acquired by Align Technology.",
+    "website": "https://www.cubicure.com",
+    "logo_url": "/logos/cubicure.png",
+    "location": {
+      "address": "Vienna, Austria",
+      "district": "10",
+      "lat": 48.1678,
+      "lng": 16.3389
+    },
+    "founded_year": 2015,
+    "tags": ["deeptech", "3d-printing", "medtech", "b2b", "hardware"],
+    "funding_stage": "exit",
+    "total_funding_eur": 10000000,
+    "team_size": "11-50",
+    "connections": [
+      {"target_id": "tu-wien", "relationship": "spinoff_from"}
+    ],
+    "social": {
+      "linkedin": "https://www.linkedin.com/company/cubicure"
+    },
+    "last_updated": "2025-02-24",
+    "data_source": "web_research"
+  },
+  {
+    "id": "taxado",
+    "name": "Taxado",
+    "category": "startup",
+    "subcategory": "saas",
+    "description": "Recruiting platform disrupting tax and auditing sectors by connecting talented professionals with top accounting firms.",
+    "website": "https://www.taxado.at",
+    "logo_url": "/logos/taxado.png",
+    "location": {
+      "address": "Graz, Austria",
+      "district": "Graz",
+      "lat": 47.0707,
+      "lng": 15.4395
+    },
+    "founded_year": 2023,
+    "tags": ["saas", "hr", "recruiting", "b2b", "finance"],
+    "funding_stage": "seed",
+    "total_funding_eur": 1400000,
+    "team_size": "1-10",
+    "connections": [],
+    "social": {
+      "linkedin": "https://www.linkedin.com/company/taxado"
+    },
+    "last_updated": "2025-02-24",
+    "data_source": "web_research"
+  },
+  {
+    "id": "quivo",
+    "name": "Quivo",
+    "category": "startup",
+    "subcategory": "saas",
+    "description": "Transportation and logistics services provider digitizing supply chain operations for e-commerce fulfillment.",
+    "website": "https://www.quivo.co",
+    "logo_url": "/logos/quivo.png",
+    "location": {
+      "address": "Vienna, Austria",
+      "district": "22",
+      "lat": 48.2339,
+      "lng": 16.4099
+    },
+    "founded_year": 2017,
+    "tags": ["saas", "logistics", "ecommerce", "b2b", "supply-chain"],
+    "funding_stage": "series-a",
+    "total_funding_eur": 8000000,
+    "team_size": "51-200",
+    "connections": [],
+    "social": {
+      "linkedin": "https://www.linkedin.com/company/quivo"
+    },
+    "last_updated": "2025-02-24",
+    "data_source": "web_research"
+  },
+  {
+    "id": "teachino",
+    "name": "Teachino",
+    "category": "startup",
+    "subcategory": "edtech",
+    "description": "EdTech platform helping teachers plan and organize lessons with AI-powered tools and curriculum management.",
+    "website": "https://www.teachino.io",
+    "logo_url": "/logos/teachino.png",
+    "location": {
+      "address": "Vienna, Austria",
+      "district": "1",
+      "lat": 48.2089,
+      "lng": 16.3656
+    },
+    "founded_year": 2020,
+    "tags": ["edtech", "ai", "saas", "b2b", "education"],
+    "funding_stage": "seed",
+    "total_funding_eur": 1500000,
+    "team_size": "1-10",
+    "connections": [],
+    "social": {
+      "linkedin": "https://www.linkedin.com/company/teachino"
     },
     "last_updated": "2025-02-24",
     "data_source": "web_research"

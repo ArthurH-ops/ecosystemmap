@@ -16,6 +16,16 @@ interface NetworkGraphProps {
   selectedEntityId?: string;
 }
 
+const CATEGORY_LABELS: Record<string, string> = {
+  startup: 'Startups',
+  incubator: 'Inkubatoren',
+  vc: 'VCs & Angels',
+  university: 'Universitäten',
+  coworking: 'Coworking',
+  funding: 'Förderungen',
+  community: 'Communities',
+};
+
 export default function NetworkGraph({
   entities,
   onEntitySelect,
@@ -78,39 +88,83 @@ export default function NetworkGraph({
         );
 
       // Dim unconnected nodes when hovering
-      const alpha = hoveredNode ? (isConnected ? 1 : 0.2) : 1;
+      const alpha = hoveredNode ? (isConnected ? 1 : 0.15) : 1;
 
       // Draw outer glow for selected/hovered
       if (isSelected || isHovered) {
         ctx.beginPath();
-        ctx.arc(node.x, node.y, size + 4, 0, 2 * Math.PI);
-        ctx.fillStyle = `rgba(255, 255, 255, 0.3)`;
+        ctx.arc(node.x, node.y, size + 6, 0, 2 * Math.PI);
+        const gradient = ctx.createRadialGradient(
+          node.x, node.y, size,
+          node.x, node.y, size + 6
+        );
+        gradient.addColorStop(0, `${node.color}66`);
+        gradient.addColorStop(1, 'transparent');
+        ctx.fillStyle = gradient;
         ctx.fill();
       }
+
+      // Draw node shadow
+      ctx.beginPath();
+      ctx.arc(node.x + 1, node.y + 1, size, 0, 2 * Math.PI);
+      ctx.fillStyle = 'rgba(0, 0, 0, 0.1)';
+      ctx.globalAlpha = alpha;
+      ctx.fill();
+      ctx.globalAlpha = 1;
 
       // Draw node
       ctx.beginPath();
       ctx.arc(node.x, node.y, size, 0, 2 * Math.PI);
-      ctx.fillStyle = node.color;
+
+      // Create gradient for node
+      const nodeGradient = ctx.createRadialGradient(
+        node.x - size / 3, node.y - size / 3, 0,
+        node.x, node.y, size
+      );
+      nodeGradient.addColorStop(0, node.color);
+      nodeGradient.addColorStop(1, `${node.color}cc`);
+
+      ctx.fillStyle = nodeGradient;
       ctx.globalAlpha = alpha;
       ctx.fill();
       ctx.globalAlpha = 1;
 
       // Draw border
-      ctx.strokeStyle = 'rgba(255, 255, 255, 0.8)';
-      ctx.lineWidth = isSelected ? 2 : 1;
+      ctx.strokeStyle = isSelected ? '#0f172a' : 'rgba(255, 255, 255, 0.9)';
+      ctx.lineWidth = isSelected ? 3 : 1.5;
+      ctx.globalAlpha = alpha;
       ctx.stroke();
+      ctx.globalAlpha = 1;
 
       // Draw label for larger nodes or when zoomed in
-      if (size > 10 || globalScale > 1.5) {
+      if (size > 10 || globalScale > 1.5 || isSelected || isHovered) {
         const label = node.name;
-        const fontSize = Math.max(10, size / 2);
-        ctx.font = `${fontSize}px sans-serif`;
+        const fontSize = Math.max(11, size / 2);
+        ctx.font = `600 ${fontSize}px system-ui, -apple-system, sans-serif`;
         ctx.textAlign = 'center';
         ctx.textBaseline = 'top';
+
+        // Text shadow for better readability
         ctx.fillStyle = 'rgba(255, 255, 255, 0.9)';
         ctx.globalAlpha = alpha;
-        ctx.fillText(label, node.x, node.y + size + 4);
+
+        // Background for label
+        const textMetrics = ctx.measureText(label);
+        const textWidth = textMetrics.width;
+        const textHeight = fontSize;
+        const padding = 4;
+
+        ctx.fillStyle = 'rgba(255, 255, 255, 0.95)';
+        ctx.fillRect(
+          node.x - textWidth / 2 - padding,
+          node.y + size + 4,
+          textWidth + padding * 2,
+          textHeight + padding
+        );
+
+        // Draw text
+        ctx.fillStyle = '#0f172a';
+        ctx.fillText(label, node.x, node.y + size + 6);
         ctx.globalAlpha = 1;
       }
     },
@@ -124,13 +178,19 @@ export default function NetworkGraph({
         hoveredNode &&
         (link.source.id === hoveredNode || link.target.id === hoveredNode);
 
-      const alpha = hoveredNode ? (isConnectedToHovered ? 0.8 : 0.1) : 0.3;
-      const width = isConnectedToHovered ? 2 : 1;
+      const alpha = hoveredNode ? (isConnectedToHovered ? 0.8 : 0.05) : 0.25;
+      const width = isConnectedToHovered ? 2.5 : 1;
 
       ctx.beginPath();
       ctx.moveTo(link.source.x, link.source.y);
       ctx.lineTo(link.target.x, link.target.y);
-      ctx.strokeStyle = `rgba(136, 136, 153, ${alpha})`;
+
+      if (isConnectedToHovered) {
+        ctx.strokeStyle = `rgba(16, 185, 129, ${alpha})`;
+      } else {
+        ctx.strokeStyle = `rgba(100, 116, 139, ${alpha})`;
+      }
+
       ctx.lineWidth = width;
       ctx.stroke();
     },
@@ -139,26 +199,29 @@ export default function NetworkGraph({
 
   if (!isMounted) {
     return (
-      <div className="w-full h-full flex items-center justify-center bg-[#0a0a0f]">
-        <div className="text-[#888899]">Loading graph...</div>
+      <div className="w-full h-full flex items-center justify-center bg-background">
+        <div className="flex flex-col items-center gap-3">
+          <div className="w-8 h-8 border-2 border-accent border-t-transparent rounded-full animate-spin" />
+          <div className="text-foreground-muted">Graph wird geladen...</div>
+        </div>
       </div>
     );
   }
 
   return (
-    <div ref={containerRef} className="w-full h-full bg-[#0a0a0f]">
+    <div ref={containerRef} className="w-full h-full bg-background relative">
       {graphData.nodes.length > 0 && (
         <ForceGraph2D
           width={dimensions.width}
           height={dimensions.height}
           graphData={graphData}
           nodeId="id"
-          nodeLabel={(node: any) => `${node.name} (${node.category})`}
+          nodeLabel={(node: any) => `${node.name} (${CATEGORY_LABELS[node.category] || node.category})`}
           nodeCanvasObject={nodeCanvasObject}
           linkCanvasObject={linkCanvasObject}
           onNodeClick={handleNodeClick}
           onNodeHover={(node: any) => setHoveredNode(node?.id || null)}
-          backgroundColor="#0a0a0f"
+          backgroundColor="#f8fafc"
           linkDirectionalArrowLength={0}
           linkDirectionalArrowRelPos={1}
           cooldownTicks={100}
@@ -172,23 +235,30 @@ export default function NetworkGraph({
       )}
 
       {/* Legend */}
-      <div className="absolute bottom-4 right-4 p-4 glass rounded-lg border border-[#2a2a3a]">
-        <h4 className="text-xs font-semibold text-[#888899] mb-2 uppercase tracking-wider">
-          Categories
+      <div className="absolute bottom-4 right-4 p-4 bg-background-secondary/95 backdrop-blur-sm rounded-xl border border-border shadow-lg">
+        <h4 className="text-xs font-semibold text-foreground-muted mb-3 uppercase tracking-wider">
+          Kategorien
         </h4>
-        <div className="space-y-1.5">
+        <div className="space-y-2">
           {Object.entries(CATEGORY_COLORS_MAP).map(([category, color]) => (
-            <div key={category} className="flex items-center gap-2">
+            <div key={category} className="flex items-center gap-2.5">
               <div
-                className="w-3 h-3 rounded-full"
+                className="w-3.5 h-3.5 rounded-full shadow-sm"
                 style={{ background: color }}
               />
-              <span className="text-xs text-[#888899] capitalize">
-                {category === 'vc' ? 'VCs & Angels' : category}
+              <span className="text-xs text-foreground font-medium">
+                {CATEGORY_LABELS[category] || category}
               </span>
             </div>
           ))}
         </div>
+      </div>
+
+      {/* Instructions */}
+      <div className="absolute top-4 left-4 p-3 bg-background-secondary/95 backdrop-blur-sm rounded-xl border border-border shadow-lg max-w-xs">
+        <p className="text-xs text-foreground-muted">
+          <span className="font-semibold text-foreground">Tipp:</span> Klicke auf einen Knoten für Details. Ziehe zum Verschieben, scrolle zum Zoomen.
+        </p>
       </div>
     </div>
   );

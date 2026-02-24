@@ -18,23 +18,30 @@ import StatsBar from '@/components/ui/StatsBar';
 import EntityDetail from '@/components/ui/EntityDetail';
 import dynamic from 'next/dynamic';
 
+// Loading skeleton component
+function LoadingSkeleton() {
+  return (
+    <div className="w-full h-full flex items-center justify-center bg-background">
+      <div className="flex flex-col items-center gap-4">
+        <div className="relative w-16 h-16">
+          <div className="absolute inset-0 border-4 border-accent/20 rounded-full" />
+          <div className="absolute inset-0 border-4 border-accent border-t-transparent rounded-full animate-spin" />
+        </div>
+        <div className="text-foreground-muted animate-pulse font-medium">Wird geladen...</div>
+      </div>
+    </div>
+  );
+}
+
 // Dynamic imports to avoid SSR issues
 const EcosystemMap = dynamic(() => import('@/components/map/EcosystemMap'), {
   ssr: false,
-  loading: () => (
-    <div className="w-full h-full flex items-center justify-center bg-[#0a0a0f]">
-      <div className="text-[#888899] animate-pulse">Karte wird geladen...</div>
-    </div>
-  ),
+  loading: () => <LoadingSkeleton />,
 });
 
 const NetworkGraph = dynamic(() => import('@/components/graph/NetworkGraph'), {
   ssr: false,
-  loading: () => (
-    <div className="w-full h-full flex items-center justify-center bg-[#0a0a0f]">
-      <div className="text-[#888899] animate-pulse">Graph wird geladen...</div>
-    </div>
-  ),
+  loading: () => <LoadingSkeleton />,
 });
 
 export default function Home() {
@@ -73,7 +80,7 @@ export default function Home() {
   }, []);
 
   return (
-    <div className="h-screen flex flex-col overflow-hidden">
+    <div className="h-screen flex flex-col overflow-hidden bg-background">
       {/* Header */}
       <Header viewMode={viewMode} onViewModeChange={setViewMode} />
 
@@ -85,7 +92,8 @@ export default function Home() {
         {/* Sidebar Toggle (Mobile) */}
         <button
           onClick={() => setSidebarOpen(!sidebarOpen)}
-          className="lg:hidden fixed bottom-4 left-4 z-40 p-3 rounded-full bg-[#10b981] text-[#0a0a0f] shadow-lg"
+          className="lg:hidden fixed bottom-4 left-4 z-40 p-3 rounded-full bg-accent text-white shadow-lg shadow-accent/30 hover:shadow-accent/40 transition-shadow"
+          aria-label={sidebarOpen ? 'Filter schließen' : 'Filter öffnen'}
         >
           <svg
             className="w-6 h-6"
@@ -119,7 +127,7 @@ export default function Home() {
               animate={{ x: 0, opacity: 1 }}
               exit={{ x: -320, opacity: 0 }}
               transition={{ type: 'spring', damping: 25, stiffness: 200 }}
-              className="w-80 bg-[#111118] border-r border-[#2a2a3a] shrink-0 overflow-hidden flex flex-col"
+              className="w-80 bg-background-secondary border-r border-border shrink-0 overflow-hidden flex flex-col shadow-lg"
             >
               <FilterPanel
                 filters={filters}
@@ -171,31 +179,36 @@ export default function Home() {
 
           {/* Empty state */}
           {filteredEntities.length === 0 && (
-            <div className="absolute inset-0 flex items-center justify-center bg-[#0a0a0f]">
-              <div className="text-center">
-                <svg
-                  className="w-16 h-16 mx-auto text-[#888899] mb-4"
-                  fill="none"
-                  stroke="currentColor"
-                  viewBox="0 0 24 24"
-                >
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    strokeWidth={1.5}
-                    d="M9.172 16.172a4 4 0 015.656 0M9 10h.01M15 10h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
-                  />
-                </svg>
-                <h3 className="text-lg font-semibold text-white mb-2">
+            <div className="absolute inset-0 flex items-center justify-center bg-background">
+              <div className="text-center p-8">
+                <div className="w-20 h-20 mx-auto mb-6 bg-background-tertiary rounded-full flex items-center justify-center">
+                  <svg
+                    className="w-10 h-10 text-foreground-muted"
+                    fill="none"
+                    stroke="currentColor"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      strokeWidth={1.5}
+                      d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"
+                    />
+                  </svg>
+                </div>
+                <h3 className="text-xl font-bold text-foreground mb-2">
                   Keine Ergebnisse
                 </h3>
-                <p className="text-[#888899] mb-4">
-                  Versuche die Filter anzupassen
+                <p className="text-foreground-muted mb-6 max-w-sm">
+                  Versuche die Filter anzupassen oder nutze andere Suchbegriffe.
                 </p>
                 <button
                   onClick={() => setFilters(defaultFilterState)}
                   className="btn btn-primary"
                 >
+                  <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15" />
+                  </svg>
                   Filter zurücksetzen
                 </button>
               </div>

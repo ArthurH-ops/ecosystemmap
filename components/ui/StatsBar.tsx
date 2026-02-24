@@ -14,14 +14,14 @@ export default function StatsBar({ stats }: StatsBarProps) {
     { label: 'Inkubatoren', value: stats.incubators, color: '#f59e0b' },
     { label: 'Universitäten', value: stats.universities, color: '#8b5cf6' },
     { label: 'Coworking', value: stats.coworking, color: '#f97316' },
-    { label: 'Total Funding', value: formatFunding(stats.totalFunding), color: '#10b981' },
+    { label: 'Funding', value: formatFunding(stats.totalFunding), color: '#10b981' },
     { label: 'Connections', value: stats.totalConnections, color: '#14b8a6' },
   ];
 
   return (
-    <div className="flex items-center justify-center gap-6 py-3 px-6 glass border-b border-[#2a2a3a]">
+    <div className="flex items-center justify-center gap-2 sm:gap-4 md:gap-6 py-3 px-4 sm:px-6 bg-background-secondary border-b border-border overflow-x-auto">
       {statItems.map((item) => (
-        <div key={item.label} className="stat-item">
+        <div key={item.label} className="stat-item shrink-0">
           <span className="stat-value" style={{ color: item.color }}>
             {item.value}
           </span>

@@ -10,10 +10,10 @@ interface HeaderProps {
 
 export default function Header({ viewMode, onViewModeChange }: HeaderProps) {
   return (
-    <header className="flex items-center justify-between px-6 py-4 bg-[#111118] border-b border-[#2a2a3a]">
+    <header className="flex items-center justify-between px-6 py-4 bg-background-secondary border-b border-border shadow-sm">
       {/* Logo & Title */}
       <div className="flex items-center gap-3">
-        <div className="w-10 h-10 rounded-xl bg-gradient-to-br from-[#10b981] to-[#3b82f6] flex items-center justify-center">
+        <div className="w-10 h-10 rounded-xl bg-gradient-to-br from-accent to-[#3b82f6] flex items-center justify-center shadow-md">
           <svg
             className="w-6 h-6 text-white"
             fill="none"
@@ -29,8 +29,8 @@ export default function Header({ viewMode, onViewModeChange }: HeaderProps) {
           </svg>
         </div>
         <div>
-          <h1 className="text-lg font-bold text-white">Vienna Startup Ecosystem</h1>
-          <p className="text-xs text-[#888899]">Interaktive Karte & Netzwerk</p>
+          <h1 className="text-lg font-bold text-foreground">Vienna Startup Ecosystem</h1>
+          <p className="text-xs text-foreground-muted">Interaktive Karte & Netzwerk</p>
         </div>
       </div>
 
@@ -40,14 +40,14 @@ export default function Header({ viewMode, onViewModeChange }: HeaderProps) {
 
         {/* GitHub Link */}
         <a
-          href="https://github.com"
+          href="https://github.com/ArthurH-ops/ecosystemmap"
           target="_blank"
           rel="noopener noreferrer"
-          className="p-2 rounded-lg hover:bg-[#1a1a24] transition-colors"
+          className="p-2 rounded-lg hover:bg-background-tertiary transition-colors"
           title="View on GitHub"
         >
           <svg
-            className="w-5 h-5 text-[#888899]"
+            className="w-5 h-5 text-foreground-muted hover:text-foreground transition-colors"
             fill="currentColor"
             viewBox="0 0 24 24"
           >
