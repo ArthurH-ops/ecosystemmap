@@ -1,0 +1,405 @@
+[
+  {
+    "id": "speedinvest",
+    "name": "Speedinvest",
+    "category": "vc",
+    "subcategory": "other",
+    "description": "Europe's most active early-stage investor, managing over €1 billion in assets. Invests from pre-seed to growth across multiple sectors.",
+    "website": "https://www.speedinvest.com",
+    "logo_url": "/logos/speedinvest.png",
+    "location": {
+      "address": "Palais Coburg, Coburgbastei 4, 1010 Wien",
+      "district": "1",
+      "lat": 48.2056,
+      "lng": 16.3767
+    },
+    "founded_year": 2011,
+    "tags": ["early-stage", "pre-seed", "seed", "series-a", "europe"],
+    "funding_stage": null,
+    "total_funding_eur": 1000000000,
+    "team_size": "51-200",
+    "connections": [
+      {"target_id": "bitpanda", "relationship": "invested_in"},
+      {"target_id": "gostudent", "relationship": "invested_in"},
+      {"target_id": "refurbed", "relationship": "invested_in"},
+      {"target_id": "mysugr", "relationship": "invested_in"},
+      {"target_id": "adverity", "relationship": "invested_in"},
+      {"target_id": "anyline", "relationship": "invested_in"},
+      {"target_id": "byrd", "relationship": "invested_in"},
+      {"target_id": "shpock", "relationship": "invested_in"},
+      {"target_id": "tourradar", "relationship": "invested_in"},
+      {"target_id": "mostly-ai", "relationship": "invested_in"},
+      {"target_id": "prewave", "relationship": "invested_in"},
+      {"target_id": "ribbon-biolabs", "relationship": "invested_in"},
+      {"target_id": "kompany", "relationship": "invested_in"},
+      {"target_id": "cashpresso", "relationship": "invested_in"},
+      {"target_id": "wikifolio", "relationship": "invested_in"},
+      {"target_id": "storebox", "relationship": "invested_in"},
+      {"target_id": "diagnosia", "relationship": "invested_in"},
+      {"target_id": "swat-io", "relationship": "invested_in"},
+      {"target_id": "flinn", "relationship": "invested_in"},
+      {"target_id": "usersnap", "relationship": "invested_in"}
+    ],
+    "social": {
+      "linkedin": "https://www.linkedin.com/company/speedinvest",
+      "twitter": "https://twitter.com/speedinvest"
+    },
+    "last_updated": "2025-02-24",
+    "data_source": "web_research"
+  },
+  {
+    "id": "aws-gruenderfonds",
+    "name": "aws Gründerfonds",
+    "category": "vc",
+    "subcategory": "other",
+    "description": "Austrian €140M venture capital fund investing in high-growth startups during late seed and pre-series A stages.",
+    "website": "https://www.gruenderfonds.at",
+    "logo_url": "/logos/aws-gruenderfonds.png",
+    "location": {
+      "address": "Walcherstraße 11A, 1020 Wien",
+      "district": "2",
+      "lat": 48.2234,
+      "lng": 16.3989
+    },
+    "founded_year": 2013,
+    "tags": ["seed", "pre-series-a", "austria", "government"],
+    "funding_stage": null,
+    "total_funding_eur": 140000000,
+    "team_size": "11-50",
+    "connections": [
+      {"target_id": "robo-wunderkind", "relationship": "invested_in"},
+      {"target_id": "eversports", "relationship": "invested_in"},
+      {"target_id": "leftshift-one", "relationship": "invested_in"},
+      {"target_id": "finabro", "relationship": "invested_in"},
+      {"target_id": "genspeed", "relationship": "invested_in"}
+    ],
+    "social": {
+      "linkedin": "https://www.linkedin.com/company/aws-gruenderfonds"
+    },
+    "last_updated": "2025-02-24",
+    "data_source": "web_research"
+  },
+  {
+    "id": "calm-storm-ventures",
+    "name": "Calm/Storm Ventures",
+    "category": "vc",
+    "subcategory": "other",
+    "description": "Purpose-driven VC investing in founders changing life and health for the better. Early-stage focus across Europe and US.",
+    "website": "https://www.calmstorm.vc",
+    "logo_url": "/logos/calm-storm.png",
+    "location": {
+      "address": "Goldeggasse 26, 1040 Wien",
+      "district": "4",
+      "lat": 48.1923,
+      "lng": 16.3756
+    },
+    "founded_year": 2020,
+    "tags": ["early-stage", "health", "impact", "purpose-driven"],
+    "funding_stage": null,
+    "total_funding_eur": 50000000,
+    "team_size": "1-10",
+    "connections": [
+      {"target_id": "fynk", "relationship": "invested_in"}
+    ],
+    "social": {
+      "linkedin": "https://www.linkedin.com/company/calmstorm-ventures"
+    },
+    "last_updated": "2025-02-24",
+    "data_source": "web_research"
+  },
+  {
+    "id": "3ts-capital",
+    "name": "3TS Capital Partners",
+    "category": "vc",
+    "subcategory": "other",
+    "description": "Growth-stage technology VC focused on TMT companies across Central and Eastern Europe since 1999.",
+    "website": "https://www.3tscapital.com",
+    "logo_url": "/logos/3ts-capital.png",
+    "location": {
+      "address": "Bauernmarkt 24, 1010 Wien",
+      "district": "1",
+      "lat": 48.2112,
+      "lng": 16.3723
+    },
+    "founded_year": 1999,
+    "tags": ["growth-stage", "technology", "media", "cee"],
+    "funding_stage": null,
+    "total_funding_eur": 250000000,
+    "team_size": "11-50",
+    "connections": [],
+    "social": {
+      "linkedin": "https://www.linkedin.com/company/3ts-capital-partners"
+    },
+    "last_updated": "2025-02-24",
+    "data_source": "web_research"
+  },
+  {
+    "id": "3vc",
+    "name": "3VC",
+    "category": "vc",
+    "subcategory": "other",
+    "description": "European venture capital investing in Series A tech startups with global ambition.",
+    "website": "https://www.3vc.vc",
+    "logo_url": "/logos/3vc.png",
+    "location": {
+      "address": "Wipplingerstraße 25, 1010 Wien",
+      "district": "1",
+      "lat": 48.2134,
+      "lng": 16.3689
+    },
+    "founded_year": 2018,
+    "tags": ["series-a", "technology", "europe"],
+    "funding_stage": null,
+    "total_funding_eur": 100000000,
+    "team_size": "1-10",
+    "connections": [
+      {"target_id": "storyblok", "relationship": "invested_in"}
+    ],
+    "social": {
+      "linkedin": "https://www.linkedin.com/company/3vc"
+    },
+    "last_updated": "2025-02-24",
+    "data_source": "web_research"
+  },
+  {
+    "id": "elevator-ventures",
+    "name": "Elevator Ventures",
+    "category": "vc",
+    "subcategory": "fintech",
+    "description": "Corporate VC arm of Raiffeisen Bank International investing in early-stage and growth fintech across CEE.",
+    "website": "https://www.elevator-ventures.com",
+    "logo_url": "/logos/elevator-ventures.png",
+    "location": {
+      "address": "Am Stadtpark 9, 1030 Wien",
+      "district": "3",
+      "lat": 48.2034,
+      "lng": 16.3856
+    },
+    "founded_year": 2017,
+    "tags": ["fintech", "cee", "corporate-vc", "banking"],
+    "funding_stage": null,
+    "total_funding_eur": 100000000,
+    "team_size": "1-10",
+    "connections": [],
+    "social": {
+      "linkedin": "https://www.linkedin.com/company/elevator-ventures"
+    },
+    "last_updated": "2025-02-24",
+    "data_source": "web_research"
+  },
+  {
+    "id": "push-vc",
+    "name": "PUSH VC",
+    "category": "vc",
+    "subcategory": "other",
+    "description": "Early-stage VC providing seed funding and strategic support to innovative startups with high growth potential.",
+    "website": "https://www.push.vc",
+    "logo_url": "/logos/push-vc.png",
+    "location": {
+      "address": "Schwarzenbergplatz 3, 1010 Wien",
+      "district": "1",
+      "lat": 48.2023,
+      "lng": 16.3778
+    },
+    "founded_year": 2019,
+    "tags": ["seed", "early-stage", "austria"],
+    "funding_stage": null,
+    "total_funding_eur": 30000000,
+    "team_size": "1-10",
+    "connections": [],
+    "social": {
+      "linkedin": "https://www.linkedin.com/company/push-vc"
+    },
+    "last_updated": "2025-02-24",
+    "data_source": "web_research"
+  },
+  {
+    "id": "cnb-capital",
+    "name": "CNB Capital",
+    "category": "vc",
+    "subcategory": "deeptech",
+    "description": "Deep-tech focused VC investing in seed and Series A European B2B companies.",
+    "website": "https://www.cnbcapital.com",
+    "logo_url": "/logos/cnb-capital.png",
+    "location": {
+      "address": "Herrengasse 10, 1010 Wien",
+      "district": "1",
+      "lat": 48.2098,
+      "lng": 16.3656
+    },
+    "founded_year": 2018,
+    "tags": ["deeptech", "b2b", "seed", "series-a"],
+    "funding_stage": null,
+    "total_funding_eur": 50000000,
+    "team_size": "1-10",
+    "connections": [],
+    "social": {
+      "linkedin": "https://www.linkedin.com/company/cnb-capital"
+    },
+    "last_updated": "2025-02-24",
+    "data_source": "web_research"
+  },
+  {
+    "id": "noctua-science-ventures",
+    "name": "Noctua Science Ventures",
+    "category": "vc",
+    "subcategory": "deeptech",
+    "description": "Joint venture between Speedinvest and TU Wien providing early-stage funding to academic deep-tech startups.",
+    "website": "https://www.noctua.vc",
+    "logo_url": "/logos/noctua.png",
+    "location": {
+      "address": "Karlsplatz 13, 1040 Wien",
+      "district": "4",
+      "lat": 48.1989,
+      "lng": 16.3689
+    },
+    "founded_year": 2020,
+    "tags": ["deeptech", "academic", "pre-seed", "university-spinoff"],
+    "funding_stage": null,
+    "total_funding_eur": 25000000,
+    "team_size": "1-10",
+    "connections": [
+      {"target_id": "speedinvest", "relationship": "partnered_with"},
+      {"target_id": "tu-wien", "relationship": "partnered_with"}
+    ],
+    "social": {
+      "linkedin": "https://www.linkedin.com/company/noctua-science-ventures"
+    },
+    "last_updated": "2025-02-24",
+    "data_source": "web_research"
+  },
+  {
+    "id": "arax-capital",
+    "name": "Arax Capital Partners",
+    "category": "vc",
+    "subcategory": "biotech",
+    "description": "Austrian bio-tech and high-tech early stage investor with exclusive focus on Austrian ventures.",
+    "website": "https://www.araxcapital.com",
+    "logo_url": "/logos/arax-capital.png",
+    "location": {
+      "address": "Schwarzenbergplatz 6, 1030 Wien",
+      "district": "3",
+      "lat": 48.2012,
+      "lng": 16.3756
+    },
+    "founded_year": 2014,
+    "tags": ["biotech", "hightech", "early-stage", "austria"],
+    "funding_stage": null,
+    "total_funding_eur": 40000000,
+    "team_size": "1-10",
+    "connections": [],
+    "social": {
+      "linkedin": "https://www.linkedin.com/company/arax-capital"
+    },
+    "last_updated": "2025-02-24",
+    "data_source": "web_research"
+  },
+  {
+    "id": "apex-ventures",
+    "name": "Apex Ventures",
+    "category": "vc",
+    "subcategory": "deeptech",
+    "description": "Early-stage deep tech VC investing in founders solving fundamental problems in health, mobility, climate, and computing.",
+    "website": "https://www.apex.ventures",
+    "logo_url": "/logos/apex-ventures.png",
+    "location": {
+      "address": "Gonzagagasse 15, 1010 Wien",
+      "district": "1",
+      "lat": 48.2145,
+      "lng": 16.3767
+    },
+    "founded_year": 2018,
+    "tags": ["deeptech", "climate", "health", "early-stage"],
+    "funding_stage": null,
+    "total_funding_eur": 60000000,
+    "team_size": "1-10",
+    "connections": [],
+    "social": {
+      "linkedin": "https://www.linkedin.com/company/apex-ventures"
+    },
+    "last_updated": "2025-02-24",
+    "data_source": "web_research"
+  },
+  {
+    "id": "pioneers-ventures",
+    "name": "Pioneers Ventures",
+    "category": "vc",
+    "subcategory": "other",
+    "description": "Venture arm of Pioneers ecosystem investing in early-stage European technology startups.",
+    "website": "https://pioneers.io/ventures",
+    "logo_url": "/logos/pioneers-ventures.png",
+    "location": {
+      "address": "Hofmühlgasse 17, 1060 Wien",
+      "district": "6",
+      "lat": 48.1945,
+      "lng": 16.3489
+    },
+    "founded_year": 2015,
+    "tags": ["early-stage", "technology", "europe"],
+    "funding_stage": null,
+    "total_funding_eur": 30000000,
+    "team_size": "1-10",
+    "connections": [
+      {"target_id": "pioneers", "relationship": "partnered_with"}
+    ],
+    "social": {
+      "linkedin": "https://www.linkedin.com/company/pioneers-ventures"
+    },
+    "last_updated": "2025-02-24",
+    "data_source": "web_research"
+  },
+  {
+    "id": "austrianangels",
+    "name": "AustrianAngels",
+    "category": "vc",
+    "subcategory": "other",
+    "description": "Austria's premier business angel network connecting startups with experienced entrepreneurs and investors.",
+    "website": "https://www.austriangangels.at",
+    "logo_url": "/logos/austrianangels.png",
+    "location": {
+      "address": "Operngasse 17-21, 1040 Wien",
+      "district": "4",
+      "lat": 48.1998,
+      "lng": 16.3656
+    },
+    "founded_year": 2012,
+    "tags": ["angels", "seed", "austria", "network"],
+    "funding_stage": null,
+    "total_funding_eur": null,
+    "team_size": "1-10",
+    "connections": [],
+    "social": {
+      "linkedin": "https://www.linkedin.com/company/austriangangels"
+    },
+    "last_updated": "2025-02-24",
+    "data_source": "web_research"
+  },
+  {
+    "id": "i2b-business-angels",
+    "name": "aws i2 Business Angels",
+    "category": "vc",
+    "subcategory": "other",
+    "description": "Independent Austrian platform for structured matching of innovative startups and experienced angel investors.",
+    "website": "https://www.aws.at/i2",
+    "logo_url": "/logos/i2b.png",
+    "location": {
+      "address": "Walcherstraße 11A, 1020 Wien",
+      "district": "2",
+      "lat": 48.2234,
+      "lng": 16.3989
+    },
+    "founded_year": 2008,
+    "tags": ["angels", "matchmaking", "austria", "government"],
+    "funding_stage": null,
+    "total_funding_eur": null,
+    "team_size": "1-10",
+    "connections": [
+      {"target_id": "aws", "relationship": "partnered_with"}
+    ],
+    "social": {
+      "linkedin": "https://www.linkedin.com/company/aws-i2-business-angels"
+    },
+    "last_updated": "2025-02-24",
+    "data_source": "web_research"
+  }
+]

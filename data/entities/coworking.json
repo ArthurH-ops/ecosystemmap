@@ -1,0 +1,262 @@
+[
+  {
+    "id": "impact-hub-vienna",
+    "name": "Impact Hub Vienna",
+    "category": "coworking",
+    "subcategory": "sustainability",
+    "description": "Community of 500+ members focused on sustainability, social impact, and collaboration. Offers coworking, events, and accelerator programs.",
+    "website": "https://vienna.impacthub.net",
+    "logo_url": "/logos/impact-hub.png",
+    "location": {
+      "address": "Lindengasse 56, 1070 Wien",
+      "district": "7",
+      "lat": 48.2023,
+      "lng": 16.3478
+    },
+    "founded_year": 2010,
+    "tags": ["impact", "sustainability", "community", "events"],
+    "funding_stage": null,
+    "total_funding_eur": null,
+    "team_size": "11-50",
+    "connections": [],
+    "social": {
+      "linkedin": "https://www.linkedin.com/company/impact-hub-vienna"
+    },
+    "last_updated": "2025-02-24",
+    "data_source": "web_research"
+  },
+  {
+    "id": "talent-garden-vienna",
+    "name": "Talent Garden Vienna",
+    "category": "coworking",
+    "subcategory": "other",
+    "description": "European coworking network with rooftop terrace and urban garden, fostering innovation and digital skills.",
+    "website": "https://talentgarden.org/vienna",
+    "logo_url": "/logos/talent-garden.png",
+    "location": {
+      "address": "Liechtensteinstraße 111/115, 1090 Wien",
+      "district": "9",
+      "lat": 48.2289,
+      "lng": 16.3534
+    },
+    "founded_year": 2018,
+    "tags": ["digital", "innovation", "education", "rooftop"],
+    "funding_stage": null,
+    "total_funding_eur": null,
+    "team_size": "11-50",
+    "connections": [],
+    "social": {
+      "linkedin": "https://www.linkedin.com/company/talent-garden"
+    },
+    "last_updated": "2025-02-24",
+    "data_source": "web_research"
+  },
+  {
+    "id": "stockwerk-coworking",
+    "name": "Stockwerk Coworking",
+    "category": "coworking",
+    "subcategory": "other",
+    "description": "3-floor coworking space in renovated factory building near Westbahnhof with 60 desks and 24/7 access.",
+    "website": "https://www.stockwerk.co.at",
+    "logo_url": "/logos/stockwerk.png",
+    "location": {
+      "address": "Pater-Schwartz-Gasse 11A, 1150 Wien",
+      "district": "15",
+      "lat": 48.1956,
+      "lng": 16.3367
+    },
+    "founded_year": 2014,
+    "tags": ["coworking", "factory", "24/7"],
+    "funding_stage": null,
+    "total_funding_eur": null,
+    "team_size": "1-10",
+    "connections": [],
+    "social": {
+      "linkedin": "https://www.linkedin.com/company/stockwerk-coworking"
+    },
+    "last_updated": "2025-02-24",
+    "data_source": "web_research"
+  },
+  {
+    "id": "loffice-vienna",
+    "name": "Loffice Vienna",
+    "category": "coworking",
+    "subcategory": "other",
+    "description": "Creative coworking space with focus on design, media, and cultural industries in the 7th district.",
+    "website": "https://www.loffice.at",
+    "logo_url": "/logos/loffice.png",
+    "location": {
+      "address": "Schottenfeldgasse 85, 1070 Wien",
+      "district": "7",
+      "lat": 48.2034,
+      "lng": 16.3456
+    },
+    "founded_year": 2012,
+    "tags": ["creative", "design", "media", "cultural"],
+    "funding_stage": null,
+    "total_funding_eur": null,
+    "team_size": "1-10",
+    "connections": [],
+    "social": {
+      "linkedin": "https://www.linkedin.com/company/loffice"
+    },
+    "last_updated": "2025-02-24",
+    "data_source": "web_research"
+  },
+  {
+    "id": "cospace-vienna",
+    "name": "CoSpace Vienna",
+    "category": "coworking",
+    "subcategory": "other",
+    "description": "Modern coworking space near Mariahilfer Straße with flexible workspace solutions.",
+    "website": "https://www.cospace.co.at",
+    "logo_url": "/logos/cospace.png",
+    "location": {
+      "address": "Gumpendorfer Straße 65, 1060 Wien",
+      "district": "6",
+      "lat": 48.1956,
+      "lng": 16.3512
+    },
+    "founded_year": 2016,
+    "tags": ["coworking", "flexible", "modern"],
+    "funding_stage": null,
+    "total_funding_eur": null,
+    "team_size": "1-10",
+    "connections": [],
+    "social": {
+      "linkedin": "https://www.linkedin.com/company/cospace-vienna"
+    },
+    "last_updated": "2025-02-24",
+    "data_source": "web_research"
+  },
+  {
+    "id": "funkensprung",
+    "name": "Funkensprung",
+    "category": "coworking",
+    "subcategory": "other",
+    "description": "Community-driven coworking with multiple locations across Vienna focused on collaboration and innovation.",
+    "website": "https://www.funkensprung.co",
+    "logo_url": "/logos/funkensprung.png",
+    "location": {
+      "address": "Aspernbrückengasse 4, 1020 Wien",
+      "district": "2",
+      "lat": 48.2156,
+      "lng": 16.3845
+    },
+    "founded_year": 2017,
+    "tags": ["community", "collaboration", "multiple-locations"],
+    "funding_stage": null,
+    "total_funding_eur": null,
+    "team_size": "1-10",
+    "connections": [],
+    "social": {
+      "linkedin": "https://www.linkedin.com/company/funkensprung"
+    },
+    "last_updated": "2025-02-24",
+    "data_source": "web_research"
+  },
+  {
+    "id": "spacelend",
+    "name": "Spacelend",
+    "category": "coworking",
+    "subcategory": "other",
+    "description": "Affordable coworking space with flexible membership options in central Vienna.",
+    "website": "https://www.spacelend.com",
+    "logo_url": "/logos/spacelend.png",
+    "location": {
+      "address": "Neubaugasse 64-66, 1070 Wien",
+      "district": "7",
+      "lat": 48.1989,
+      "lng": 16.3489
+    },
+    "founded_year": 2019,
+    "tags": ["affordable", "flexible", "central"],
+    "funding_stage": null,
+    "total_funding_eur": null,
+    "team_size": "1-10",
+    "connections": [],
+    "social": {
+      "linkedin": "https://www.linkedin.com/company/spacelend"
+    },
+    "last_updated": "2025-02-24",
+    "data_source": "web_research"
+  },
+  {
+    "id": "the-social-hub-vienna",
+    "name": "The Social Hub Vienna",
+    "category": "coworking",
+    "subcategory": "other",
+    "description": "Hybrid hotel and coworking space combining accommodation with workspace and community events.",
+    "website": "https://www.thesocialhub.co/vienna",
+    "logo_url": "/logos/social-hub.png",
+    "location": {
+      "address": "Schönbrunner Straße 165-171, 1120 Wien",
+      "district": "12",
+      "lat": 48.1856,
+      "lng": 16.3289
+    },
+    "founded_year": 2020,
+    "tags": ["hotel", "coworking", "community", "hybrid"],
+    "funding_stage": null,
+    "total_funding_eur": null,
+    "team_size": "11-50",
+    "connections": [],
+    "social": {
+      "linkedin": "https://www.linkedin.com/company/the-social-hub"
+    },
+    "last_updated": "2025-02-24",
+    "data_source": "web_research"
+  },
+  {
+    "id": "andys-vienna",
+    "name": "Andys Vienna",
+    "category": "coworking",
+    "subcategory": "other",
+    "description": "Design-focused coworking with multiple floors, meeting rooms, and event spaces.",
+    "website": "https://www.andys.cc",
+    "logo_url": "/logos/andys.png",
+    "location": {
+      "address": "Herrengasse 6-8, 1010 Wien",
+      "district": "1",
+      "lat": 48.2098,
+      "lng": 16.3656
+    },
+    "founded_year": 2019,
+    "tags": ["design", "premium", "central", "events"],
+    "funding_stage": null,
+    "total_funding_eur": null,
+    "team_size": "11-50",
+    "connections": [],
+    "social": {
+      "linkedin": "https://www.linkedin.com/company/andys-cc"
+    },
+    "last_updated": "2025-02-24",
+    "data_source": "web_research"
+  },
+  {
+    "id": "regus-vienna",
+    "name": "Regus Vienna DC Tower",
+    "category": "coworking",
+    "subcategory": "other",
+    "description": "Global workspace provider with premium location in DC Tower, Vienna's tallest building.",
+    "website": "https://www.regus.at/offices/austria/vienna",
+    "logo_url": "/logos/regus.png",
+    "location": {
+      "address": "Donau-City-Straße 7, 1220 Wien",
+      "district": "22",
+      "lat": 48.2339,
+      "lng": 16.4123
+    },
+    "founded_year": 2014,
+    "tags": ["global", "premium", "corporate", "tower"],
+    "funding_stage": null,
+    "total_funding_eur": null,
+    "team_size": "11-50",
+    "connections": [],
+    "social": {
+      "linkedin": "https://www.linkedin.com/company/regus"
+    },
+    "last_updated": "2025-02-24",
+    "data_source": "web_research"
+  }
+]

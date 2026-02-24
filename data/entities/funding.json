@@ -1,0 +1,215 @@
+[
+  {
+    "id": "aws",
+    "name": "Austria Wirtschaftsservice (AWS)",
+    "category": "funding",
+    "subcategory": "other",
+    "description": "Austria's federal promotional bank offering financial and non-financial support for startups, with programs like AWS Seed and Preseed.",
+    "website": "https://www.aws.at",
+    "logo_url": "/logos/aws.png",
+    "location": {
+      "address": "Walcherstraße 11A, 1020 Wien",
+      "district": "2",
+      "lat": 48.2234,
+      "lng": 16.3989
+    },
+    "founded_year": 2002,
+    "tags": ["government", "grants", "loans", "guarantees", "federal"],
+    "funding_stage": null,
+    "total_funding_eur": null,
+    "team_size": "51-200",
+    "connections": [
+      {"target_id": "aws-gruenderfonds", "relationship": "partnered_with"},
+      {"target_id": "i2b-business-angels", "relationship": "partnered_with"}
+    ],
+    "social": {
+      "linkedin": "https://www.linkedin.com/company/aws-austria-wirtschaftsservice"
+    },
+    "last_updated": "2025-02-24",
+    "data_source": "web_research"
+  },
+  {
+    "id": "ffg",
+    "name": "FFG - Österreichische Forschungsförderungsgesellschaft",
+    "category": "funding",
+    "subcategory": "deeptech",
+    "description": "Austria's national funding agency for industry-related R&D, supporting research-intensive startups with grants up to €3 million.",
+    "website": "https://www.ffg.at",
+    "logo_url": "/logos/ffg.png",
+    "location": {
+      "address": "Sensengasse 1, 1090 Wien",
+      "district": "9",
+      "lat": 48.2167,
+      "lng": 16.3556
+    },
+    "founded_year": 2004,
+    "tags": ["research", "innovation", "grants", "federal", "technology"],
+    "funding_stage": null,
+    "total_funding_eur": null,
+    "team_size": "51-200",
+    "connections": [],
+    "social": {
+      "linkedin": "https://www.linkedin.com/company/ffg-austrian-research-promotion-agency"
+    },
+    "last_updated": "2025-02-24",
+    "data_source": "web_research"
+  },
+  {
+    "id": "wirtschaftsagentur-wien",
+    "name": "Wirtschaftsagentur Wien",
+    "category": "funding",
+    "subcategory": "other",
+    "description": "Vienna Business Agency supporting startups with grants up to €300,000 for innovation, digitalization, and sustainability.",
+    "website": "https://wirtschaftsagentur.at",
+    "logo_url": "/logos/wirtschaftsagentur.png",
+    "location": {
+      "address": "Mariahilfer Straße 20, 1070 Wien",
+      "district": "7",
+      "lat": 48.1989,
+      "lng": 16.3534
+    },
+    "founded_year": 1982,
+    "tags": ["regional", "vienna", "grants", "innovation", "location"],
+    "funding_stage": null,
+    "total_funding_eur": null,
+    "team_size": "51-200",
+    "connections": [
+      {"target_id": "inits", "relationship": "partnered_with"}
+    ],
+    "social": {
+      "linkedin": "https://www.linkedin.com/company/vienna-business-agency"
+    },
+    "last_updated": "2025-02-24",
+    "data_source": "web_research"
+  },
+  {
+    "id": "eit-health",
+    "name": "EIT Health Austria",
+    "category": "funding",
+    "subcategory": "healthtech",
+    "description": "European health innovation network providing funding and support for healthcare startups and research.",
+    "website": "https://eithealth.eu",
+    "logo_url": "/logos/eit-health.png",
+    "location": {
+      "address": "Währinger Straße 29, 1090 Wien",
+      "district": "9",
+      "lat": 48.2189,
+      "lng": 16.3534
+    },
+    "founded_year": 2015,
+    "tags": ["health", "european", "innovation", "network"],
+    "funding_stage": null,
+    "total_funding_eur": null,
+    "team_size": "11-50",
+    "connections": [],
+    "social": {
+      "linkedin": "https://www.linkedin.com/company/eit-health"
+    },
+    "last_updated": "2025-02-24",
+    "data_source": "web_research"
+  },
+  {
+    "id": "eit-climate-kic",
+    "name": "EIT Climate-KIC",
+    "category": "funding",
+    "subcategory": "climate",
+    "description": "European climate innovation initiative supporting startups tackling climate change with funding and acceleration.",
+    "website": "https://www.climate-kic.org",
+    "logo_url": "/logos/eit-climate.png",
+    "location": {
+      "address": "Operngasse 17-21, 1040 Wien",
+      "district": "4",
+      "lat": 48.1996,
+      "lng": 16.3657
+    },
+    "founded_year": 2010,
+    "tags": ["climate", "european", "sustainability", "cleantech"],
+    "funding_stage": null,
+    "total_funding_eur": null,
+    "team_size": "11-50",
+    "connections": [],
+    "social": {
+      "linkedin": "https://www.linkedin.com/company/eit-climate-kic"
+    },
+    "last_updated": "2025-02-24",
+    "data_source": "web_research"
+  },
+  {
+    "id": "wko",
+    "name": "WKO - Wirtschaftskammer Österreich",
+    "category": "funding",
+    "subcategory": "other",
+    "description": "Austrian Economic Chambers providing startup consulting, networking, and access to funding programs.",
+    "website": "https://www.wko.at",
+    "logo_url": "/logos/wko.png",
+    "location": {
+      "address": "Wiedner Hauptstraße 63, 1045 Wien",
+      "district": "4",
+      "lat": 48.1923,
+      "lng": 16.3656
+    },
+    "founded_year": 1946,
+    "tags": ["chamber", "consulting", "networking", "support"],
+    "funding_stage": null,
+    "total_funding_eur": null,
+    "team_size": "200+",
+    "connections": [],
+    "social": {
+      "linkedin": "https://www.linkedin.com/company/wko-wirtschaftskammer-osterreich"
+    },
+    "last_updated": "2025-02-24",
+    "data_source": "web_research"
+  },
+  {
+    "id": "sfg",
+    "name": "SFG - Steirische Wirtschaftsförderungsgesellschaft",
+    "category": "funding",
+    "subcategory": "other",
+    "description": "Styrian economic development agency supporting startups and companies in the Graz region.",
+    "website": "https://www.sfg.at",
+    "logo_url": "/logos/sfg.png",
+    "location": {
+      "address": "Nikolaiplatz 2, 8020 Graz",
+      "district": "Graz",
+      "lat": 47.0754,
+      "lng": 15.4354
+    },
+    "founded_year": 1991,
+    "tags": ["regional", "styria", "grants", "consulting"],
+    "funding_stage": null,
+    "total_funding_eur": null,
+    "team_size": "51-200",
+    "connections": [],
+    "social": {
+      "linkedin": "https://www.linkedin.com/company/sfg"
+    },
+    "last_updated": "2025-02-24",
+    "data_source": "web_research"
+  },
+  {
+    "id": "ecoplus",
+    "name": "ecoplus - Wirtschaftsagentur Niederösterreich",
+    "category": "funding",
+    "subcategory": "other",
+    "description": "Lower Austria's economic development agency supporting startups with funding and business development.",
+    "website": "https://www.ecoplus.at",
+    "logo_url": "/logos/ecoplus.png",
+    "location": {
+      "address": "Niederösterreichring 2, 3100 St. Pölten",
+      "district": "St. Pölten",
+      "lat": 48.2047,
+      "lng": 15.6256
+    },
+    "founded_year": 1962,
+    "tags": ["regional", "lower-austria", "grants", "development"],
+    "funding_stage": null,
+    "total_funding_eur": null,
+    "team_size": "51-200",
+    "connections": [],
+    "social": {
+      "linkedin": "https://www.linkedin.com/company/ecoplus"
+    },
+    "last_updated": "2025-02-24",
+    "data_source": "web_research"
+  }
+]

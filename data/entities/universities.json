@@ -1,0 +1,254 @@
+[
+  {
+    "id": "tu-wien",
+    "name": "TU Wien",
+    "category": "university",
+    "subcategory": "deeptech",
+    "description": "Vienna University of Technology, Austria's largest technical university. Home to i2c incubator and numerous deep-tech spinoffs.",
+    "website": "https://www.tuwien.at",
+    "logo_url": "/logos/tu-wien.png",
+    "location": {
+      "address": "Karlsplatz 13, 1040 Wien",
+      "district": "4",
+      "lat": 48.1989,
+      "lng": 16.3689
+    },
+    "founded_year": 1815,
+    "tags": ["technical", "engineering", "research", "deeptech", "spinoffs"],
+    "funding_stage": null,
+    "total_funding_eur": null,
+    "team_size": "200+",
+    "connections": [
+      {"target_id": "i2c-tu-wien", "relationship": "partnered_with"},
+      {"target_id": "inits", "relationship": "partnered_with"},
+      {"target_id": "noctua-science-ventures", "relationship": "partnered_with"},
+      {"target_id": "tttech-auto", "relationship": "spinoff_from"},
+      {"target_id": "prewave", "relationship": "spinoff_from"},
+      {"target_id": "contextflow", "relationship": "spinoff_from"},
+      {"target_id": "vienna-scientific", "relationship": "spinoff_from"}
+    ],
+    "social": {
+      "linkedin": "https://www.linkedin.com/school/tu-wien",
+      "twitter": "https://twitter.com/taboruwien"
+    },
+    "last_updated": "2025-02-24",
+    "data_source": "web_research"
+  },
+  {
+    "id": "uni-wien",
+    "name": "Universität Wien",
+    "category": "university",
+    "subcategory": "other",
+    "description": "University of Vienna, Austria's oldest and largest university with extensive research in natural sciences and humanities.",
+    "website": "https://www.univie.ac.at",
+    "logo_url": "/logos/uni-wien.png",
+    "location": {
+      "address": "Universitätsring 1, 1010 Wien",
+      "district": "1",
+      "lat": 48.2134,
+      "lng": 16.3589
+    },
+    "founded_year": 1365,
+    "tags": ["research", "academic", "life-sciences", "humanities"],
+    "funding_stage": null,
+    "total_funding_eur": null,
+    "team_size": "200+",
+    "connections": [
+      {"target_id": "inits", "relationship": "partnered_with"},
+      {"target_id": "vienna-biocenter", "relationship": "partnered_with"}
+    ],
+    "social": {
+      "linkedin": "https://www.linkedin.com/school/university-of-vienna",
+      "twitter": "https://twitter.com/univienna"
+    },
+    "last_updated": "2025-02-24",
+    "data_source": "web_research"
+  },
+  {
+    "id": "wu-wien",
+    "name": "WU Wien",
+    "category": "university",
+    "subcategory": "other",
+    "description": "Vienna University of Economics and Business, one of Europe's largest business schools with Institute for Entrepreneurship & Innovation.",
+    "website": "https://www.wu.ac.at",
+    "logo_url": "/logos/wu-wien.png",
+    "location": {
+      "address": "Welthandelsplatz 1, 1020 Wien",
+      "district": "2",
+      "lat": 48.2134,
+      "lng": 16.4089
+    },
+    "founded_year": 1898,
+    "tags": ["business", "economics", "entrepreneurship", "innovation"],
+    "funding_stage": null,
+    "total_funding_eur": null,
+    "team_size": "200+",
+    "connections": [],
+    "social": {
+      "linkedin": "https://www.linkedin.com/school/wuwien",
+      "twitter": "https://twitter.com/wu_vienna"
+    },
+    "last_updated": "2025-02-24",
+    "data_source": "web_research"
+  },
+  {
+    "id": "boku",
+    "name": "BOKU Wien",
+    "category": "university",
+    "subcategory": "biotech",
+    "description": "University of Natural Resources and Life Sciences with focus on biotechnology, agriculture, and sustainability research.",
+    "website": "https://www.boku.ac.at",
+    "logo_url": "/logos/boku.png",
+    "location": {
+      "address": "Gregor-Mendel-Straße 33, 1180 Wien",
+      "district": "18",
+      "lat": 48.2345,
+      "lng": 16.3334
+    },
+    "founded_year": 1872,
+    "tags": ["life-sciences", "biotechnology", "sustainability", "agriculture"],
+    "funding_stage": null,
+    "total_funding_eur": null,
+    "team_size": "200+",
+    "connections": [
+      {"target_id": "arkeon", "relationship": "spinoff_from"}
+    ],
+    "social": {
+      "linkedin": "https://www.linkedin.com/school/boku-wien",
+      "twitter": "https://twitter.com/baboruwien"
+    },
+    "last_updated": "2025-02-24",
+    "data_source": "web_research"
+  },
+  {
+    "id": "meduni-wien",
+    "name": "Medizinische Universität Wien",
+    "category": "university",
+    "subcategory": "healthtech",
+    "description": "Medical University of Vienna, Austria's largest medical school and research institution in medicine and healthcare.",
+    "website": "https://www.meduniwien.ac.at",
+    "logo_url": "/logos/meduni-wien.png",
+    "location": {
+      "address": "Spitalgasse 23, 1090 Wien",
+      "district": "9",
+      "lat": 48.2199,
+      "lng": 16.3478
+    },
+    "founded_year": 2004,
+    "tags": ["medicine", "healthcare", "research", "medtech"],
+    "funding_stage": null,
+    "total_funding_eur": null,
+    "team_size": "200+",
+    "connections": [],
+    "social": {
+      "linkedin": "https://www.linkedin.com/school/medical-university-of-vienna"
+    },
+    "last_updated": "2025-02-24",
+    "data_source": "web_research"
+  },
+  {
+    "id": "ait",
+    "name": "AIT Austrian Institute of Technology",
+    "category": "university",
+    "subcategory": "deeptech",
+    "description": "Austria's largest research and technology organization focusing on infrastructure, energy, health, and digital technology.",
+    "website": "https://www.ait.ac.at",
+    "logo_url": "/logos/ait.png",
+    "location": {
+      "address": "Giefinggasse 4, 1210 Wien",
+      "district": "21",
+      "lat": 48.2789,
+      "lng": 16.4089
+    },
+    "founded_year": 1956,
+    "tags": ["research", "technology", "innovation", "deeptech", "applied-research"],
+    "funding_stage": null,
+    "total_funding_eur": null,
+    "team_size": "200+",
+    "connections": [],
+    "social": {
+      "linkedin": "https://www.linkedin.com/company/ait-austrian-institute-of-technology"
+    },
+    "last_updated": "2025-02-24",
+    "data_source": "web_research"
+  },
+  {
+    "id": "ist-austria",
+    "name": "IST Austria",
+    "category": "university",
+    "subcategory": "deeptech",
+    "description": "Institute of Science and Technology Austria, world-class basic research institute in natural sciences and mathematics.",
+    "website": "https://www.ist.ac.at",
+    "logo_url": "/logos/ist-austria.png",
+    "location": {
+      "address": "Am Campus 1, 3400 Klosterneuburg",
+      "district": "Klosterneuburg",
+      "lat": 48.3089,
+      "lng": 16.2567
+    },
+    "founded_year": 2009,
+    "tags": ["research", "science", "mathematics", "physics", "computer-science"],
+    "funding_stage": null,
+    "total_funding_eur": null,
+    "team_size": "200+",
+    "connections": [],
+    "social": {
+      "linkedin": "https://www.linkedin.com/school/ist-austria",
+      "twitter": "https://twitter.com/ISTAustria"
+    },
+    "last_updated": "2025-02-24",
+    "data_source": "web_research"
+  },
+  {
+    "id": "fh-technikum-wien",
+    "name": "FH Technikum Wien",
+    "category": "university",
+    "subcategory": "other",
+    "description": "Vienna's largest technical university of applied sciences focusing on engineering and computer science education.",
+    "website": "https://www.technikum-wien.at",
+    "logo_url": "/logos/fh-technikum.png",
+    "location": {
+      "address": "Höchstädtplatz 6, 1200 Wien",
+      "district": "20",
+      "lat": 48.2389,
+      "lng": 16.3789
+    },
+    "founded_year": 1994,
+    "tags": ["applied-sciences", "engineering", "computer-science", "technology"],
+    "funding_stage": null,
+    "total_funding_eur": null,
+    "team_size": "51-200",
+    "connections": [],
+    "social": {
+      "linkedin": "https://www.linkedin.com/school/fh-technikum-wien"
+    },
+    "last_updated": "2025-02-24",
+    "data_source": "web_research"
+  },
+  {
+    "id": "oaw",
+    "name": "Österreichische Akademie der Wissenschaften",
+    "category": "university",
+    "subcategory": "other",
+    "description": "Austrian Academy of Sciences, Austria's leading non-university research institution across all scientific disciplines.",
+    "website": "https://www.oeaw.ac.at",
+    "logo_url": "/logos/oaw.png",
+    "location": {
+      "address": "Dr. Ignaz Seipel-Platz 2, 1010 Wien",
+      "district": "1",
+      "lat": 48.2089,
+      "lng": 16.3767
+    },
+    "founded_year": 1847,
+    "tags": ["research", "science", "academy", "basic-research"],
+    "funding_stage": null,
+    "total_funding_eur": null,
+    "team_size": "200+",
+    "connections": [],
+    "social": {
+      "linkedin": "https://www.linkedin.com/company/austrian-academy-of-sciences"
+    },
+    "last_updated": "2025-02-24",
+    "data_source": "web_research"
+  }
+]

@@ -1,0 +1,331 @@
+[
+  {
+    "id": "austrian-startups",
+    "name": "AustrianStartups",
+    "category": "community",
+    "subcategory": "other",
+    "description": "Independent non-profit platform for innovative entrepreneurship in Austria. Organizes Stammtisch, Summit, and expert sessions.",
+    "website": "https://austrianstartups.com",
+    "logo_url": "/logos/austrian-startups.png",
+    "location": {
+      "address": "Mariahilfer Straße 101, 1060 Wien",
+      "district": "6",
+      "lat": 48.1959,
+      "lng": 16.3469
+    },
+    "founded_year": 2014,
+    "tags": ["community", "non-profit", "events", "ecosystem", "advocacy"],
+    "funding_stage": null,
+    "total_funding_eur": null,
+    "team_size": "11-50",
+    "connections": [
+      {"target_id": "viennaup", "relationship": "partnered_with"},
+      {"target_id": "startup-world-cup-austria", "relationship": "partnered_with"}
+    ],
+    "social": {
+      "linkedin": "https://www.linkedin.com/company/austrianstartups",
+      "twitter": "https://twitter.com/AustrianStartup"
+    },
+    "last_updated": "2025-02-24",
+    "data_source": "web_research"
+  },
+  {
+    "id": "viennaup",
+    "name": "ViennaUP",
+    "category": "community",
+    "subcategory": "other",
+    "description": "City-wide startup festival with decentralized events across Vienna. Attracts international founders, investors, and talent.",
+    "website": "https://viennaup.com",
+    "logo_url": "/logos/viennaup.png",
+    "location": {
+      "address": "Mariahilfer Straße 20, 1070 Wien",
+      "district": "7",
+      "lat": 48.1989,
+      "lng": 16.3534
+    },
+    "founded_year": 2019,
+    "tags": ["festival", "events", "networking", "international"],
+    "funding_stage": null,
+    "total_funding_eur": null,
+    "team_size": "11-50",
+    "connections": [
+      {"target_id": "wirtschaftsagentur-wien", "relationship": "partnered_with"},
+      {"target_id": "austrian-startups", "relationship": "partnered_with"}
+    ],
+    "social": {
+      "linkedin": "https://www.linkedin.com/company/viennaup",
+      "twitter": "https://twitter.com/ViennaUP"
+    },
+    "last_updated": "2025-02-24",
+    "data_source": "web_research"
+  },
+  {
+    "id": "startup-world-cup-austria",
+    "name": "Startup World Cup Austria",
+    "category": "community",
+    "subcategory": "other",
+    "description": "Austrian regional competition of the global Startup World Cup, with finals during ViennaUP.",
+    "website": "https://www.startupworldcup-austria.com",
+    "logo_url": "/logos/swc-austria.png",
+    "location": {
+      "address": "Mariahilfer Straße 101, 1060 Wien",
+      "district": "6",
+      "lat": 48.1959,
+      "lng": 16.3469
+    },
+    "founded_year": 2019,
+    "tags": ["competition", "pitching", "global", "awards"],
+    "funding_stage": null,
+    "total_funding_eur": null,
+    "team_size": "1-10",
+    "connections": [
+      {"target_id": "austrian-startups", "relationship": "partnered_with"}
+    ],
+    "social": {
+      "linkedin": "https://www.linkedin.com/company/startup-world-cup-austria"
+    },
+    "last_updated": "2025-02-24",
+    "data_source": "web_research"
+  },
+  {
+    "id": "pioneers",
+    "name": "Pioneers",
+    "category": "community",
+    "subcategory": "other",
+    "description": "Formerly one of Europe's largest startup festivals. Now focuses on corporate innovation and ventures.",
+    "website": "https://pioneers.io",
+    "logo_url": "/logos/pioneers.png",
+    "location": {
+      "address": "Hofmühlgasse 17, 1060 Wien",
+      "district": "6",
+      "lat": 48.1945,
+      "lng": 16.3489
+    },
+    "founded_year": 2010,
+    "tags": ["festival", "corporate-innovation", "ventures", "events"],
+    "funding_stage": null,
+    "total_funding_eur": null,
+    "team_size": "11-50",
+    "connections": [
+      {"target_id": "pioneers-ventures", "relationship": "partnered_with"}
+    ],
+    "social": {
+      "linkedin": "https://www.linkedin.com/company/pioneers",
+      "twitter": "https://twitter.com/pioneers"
+    },
+    "last_updated": "2025-02-24",
+    "data_source": "web_research"
+  },
+  {
+    "id": "startup-live",
+    "name": "Startup Live",
+    "category": "community",
+    "subcategory": "other",
+    "description": "Weekend hackathon and pitching events where founders build and validate startup ideas in 54 hours.",
+    "website": "https://www.startuplive.org",
+    "logo_url": "/logos/startup-live.png",
+    "location": {
+      "address": "Praterstraße 1, 1020 Wien",
+      "district": "2",
+      "lat": 48.2178,
+      "lng": 16.3823
+    },
+    "founded_year": 2012,
+    "tags": ["hackathon", "pitching", "weekend", "building"],
+    "funding_stage": null,
+    "total_funding_eur": null,
+    "team_size": "1-10",
+    "connections": [],
+    "social": {
+      "linkedin": "https://www.linkedin.com/company/startup-live",
+      "twitter": "https://twitter.com/startuplive"
+    },
+    "last_updated": "2025-02-24",
+    "data_source": "web_research"
+  },
+  {
+    "id": "female-founders",
+    "name": "Female Founders",
+    "category": "community",
+    "subcategory": "other",
+    "description": "Community and accelerator supporting female entrepreneurs in Austria with mentoring, events, and network.",
+    "website": "https://www.female-founders.org",
+    "logo_url": "/logos/female-founders.png",
+    "location": {
+      "address": "Lindengasse 56, 1070 Wien",
+      "district": "7",
+      "lat": 48.2023,
+      "lng": 16.3478
+    },
+    "founded_year": 2016,
+    "tags": ["female", "diversity", "mentoring", "accelerator"],
+    "funding_stage": null,
+    "total_funding_eur": null,
+    "team_size": "11-50",
+    "connections": [
+      {"target_id": "impact-hub-vienna", "relationship": "partnered_with"}
+    ],
+    "social": {
+      "linkedin": "https://www.linkedin.com/company/female-founders",
+      "twitter": "https://twitter.com/FemaleFoundrs"
+    },
+    "last_updated": "2025-02-24",
+    "data_source": "web_research"
+  },
+  {
+    "id": "tech-vienna",
+    "name": "Tech Vienna",
+    "category": "community",
+    "subcategory": "other",
+    "description": "Community for Vienna's tech scene with regular meetups, networking events, and developer conferences.",
+    "website": "https://www.tech.wien",
+    "logo_url": "/logos/tech-vienna.png",
+    "location": {
+      "address": "Mariahilfer Straße 20, 1070 Wien",
+      "district": "7",
+      "lat": 48.1989,
+      "lng": 16.3534
+    },
+    "founded_year": 2017,
+    "tags": ["tech", "developers", "meetups", "networking"],
+    "funding_stage": null,
+    "total_funding_eur": null,
+    "team_size": "1-10",
+    "connections": [],
+    "social": {
+      "linkedin": "https://www.linkedin.com/company/tech-vienna"
+    },
+    "last_updated": "2025-02-24",
+    "data_source": "web_research"
+  },
+  {
+    "id": "vienna-data-science-group",
+    "name": "Vienna Data Science Group",
+    "category": "community",
+    "subcategory": "ai",
+    "description": "Community for data scientists, ML engineers, and AI enthusiasts in Vienna with regular meetups and workshops.",
+    "website": "https://www.meetup.com/vienna-data-science-group",
+    "logo_url": "/logos/vdsg.png",
+    "location": {
+      "address": "Liechtensteinstraße 111/115, 1090 Wien",
+      "district": "9",
+      "lat": 48.2289,
+      "lng": 16.3534
+    },
+    "founded_year": 2015,
+    "tags": ["data-science", "machine-learning", "ai", "meetups"],
+    "funding_stage": null,
+    "total_funding_eur": null,
+    "team_size": "1-10",
+    "connections": [],
+    "social": {
+      "linkedin": "https://www.linkedin.com/company/vienna-data-science-group"
+    },
+    "last_updated": "2025-02-24",
+    "data_source": "web_research"
+  },
+  {
+    "id": "vienna-js",
+    "name": "Vienna.js",
+    "category": "community",
+    "subcategory": "other",
+    "description": "Monthly JavaScript meetup bringing together web developers and JS enthusiasts in Vienna.",
+    "website": "https://www.meetup.com/vienna-js",
+    "logo_url": "/logos/vienna-js.png",
+    "location": {
+      "address": "Various locations, Wien",
+      "district": "1",
+      "lat": 48.2089,
+      "lng": 16.3712
+    },
+    "founded_year": 2013,
+    "tags": ["javascript", "web", "developers", "meetups"],
+    "funding_stage": null,
+    "total_funding_eur": null,
+    "team_size": "1-10",
+    "connections": [],
+    "social": {
+      "twitter": "https://twitter.com/vaborjs"
+    },
+    "last_updated": "2025-02-24",
+    "data_source": "web_research"
+  },
+  {
+    "id": "vienna-rb",
+    "name": "Vienna.rb",
+    "category": "community",
+    "subcategory": "other",
+    "description": "Ruby developers meetup in Vienna with talks, workshops, and networking for Rails enthusiasts.",
+    "website": "https://www.meetup.com/vienna-rb",
+    "logo_url": "/logos/vienna-rb.png",
+    "location": {
+      "address": "Various locations, Wien",
+      "district": "1",
+      "lat": 48.2067,
+      "lng": 16.3689
+    },
+    "founded_year": 2012,
+    "tags": ["ruby", "rails", "developers", "meetups"],
+    "funding_stage": null,
+    "total_funding_eur": null,
+    "team_size": "1-10",
+    "connections": [],
+    "social": {
+      "twitter": "https://twitter.com/vienna_rb"
+    },
+    "last_updated": "2025-02-24",
+    "data_source": "web_research"
+  },
+  {
+    "id": "devops-vienna",
+    "name": "DevOps Vienna",
+    "category": "community",
+    "subcategory": "other",
+    "description": "Community for DevOps practitioners with talks on infrastructure, automation, and cloud technologies.",
+    "website": "https://www.meetup.com/devops-vienna",
+    "logo_url": "/logos/devops-vienna.png",
+    "location": {
+      "address": "Various locations, Wien",
+      "district": "1",
+      "lat": 48.2045,
+      "lng": 16.3756
+    },
+    "founded_year": 2014,
+    "tags": ["devops", "infrastructure", "cloud", "automation"],
+    "funding_stage": null,
+    "total_funding_eur": null,
+    "team_size": "1-10",
+    "connections": [],
+    "social": {
+      "linkedin": "https://www.linkedin.com/company/devops-vienna"
+    },
+    "last_updated": "2025-02-24",
+    "data_source": "web_research"
+  },
+  {
+    "id": "ux-vienna",
+    "name": "UX Vienna",
+    "category": "community",
+    "subcategory": "other",
+    "description": "User experience design community with meetups, workshops, and conferences for designers.",
+    "website": "https://www.meetup.com/ux-vienna",
+    "logo_url": "/logos/ux-vienna.png",
+    "location": {
+      "address": "Various locations, Wien",
+      "district": "7",
+      "lat": 48.2012,
+      "lng": 16.3512
+    },
+    "founded_year": 2015,
+    "tags": ["ux", "design", "product", "research"],
+    "funding_stage": null,
+    "total_funding_eur": null,
+    "team_size": "1-10",
+    "connections": [],
+    "social": {
+      "twitter": "https://twitter.com/UXVienna"
+    },
+    "last_updated": "2025-02-24",
+    "data_source": "web_research"
+  }
+]

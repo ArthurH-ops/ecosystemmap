@@ -1,0 +1,1367 @@
+[
+  {
+    "id": "bitpanda",
+    "name": "Bitpanda",
+    "category": "startup",
+    "subcategory": "fintech",
+    "description": "Europe's leading digital asset platform, offering trading of cryptocurrencies, stocks, and commodities. Austria's first unicorn.",
+    "website": "https://www.bitpanda.com",
+    "logo_url": "/logos/bitpanda.png",
+    "location": {
+      "address": "Stella-Klein-Löw-Weg 17, 1020 Wien",
+      "district": "2",
+      "lat": 48.2289,
+      "lng": 16.4089
+    },
+    "founded_year": 2014,
+    "tags": ["fintech", "crypto", "unicorn", "b2c", "trading"],
+    "funding_stage": "series-c",
+    "total_funding_eur": 470000000,
+    "team_size": "200+",
+    "connections": [
+      {"target_id": "speedinvest", "relationship": "funded_by"},
+      {"target_id": "valar-ventures", "relationship": "funded_by"}
+    ],
+    "social": {
+      "linkedin": "https://www.linkedin.com/company/bitpanda",
+      "twitter": "https://twitter.com/bitpanda"
+    },
+    "last_updated": "2025-02-24",
+    "data_source": "web_research"
+  },
+  {
+    "id": "gostudent",
+    "name": "GoStudent",
+    "category": "startup",
+    "subcategory": "edtech",
+    "description": "Europe's leading digital learning platform for online tutoring. Austria's second unicorn and Europe's first edtech unicorn.",
+    "website": "https://www.gostudent.org",
+    "logo_url": "/logos/gostudent.png",
+    "location": {
+      "address": "Handelskai 94-96, 1200 Wien",
+      "district": "20",
+      "lat": 48.2393,
+      "lng": 16.3856
+    },
+    "founded_year": 2016,
+    "tags": ["edtech", "unicorn", "b2c", "saas", "marketplace"],
+    "funding_stage": "series-c",
+    "total_funding_eur": 590000000,
+    "team_size": "200+",
+    "connections": [
+      {"target_id": "speedinvest", "relationship": "funded_by"},
+      {"target_id": "softbank", "relationship": "funded_by"}
+    ],
+    "social": {
+      "linkedin": "https://www.linkedin.com/company/gostudent",
+      "twitter": "https://twitter.com/gostudent"
+    },
+    "last_updated": "2025-02-24",
+    "data_source": "web_research"
+  },
+  {
+    "id": "refurbed",
+    "name": "Refurbed",
+    "category": "startup",
+    "subcategory": "sustainability",
+    "description": "Online marketplace for refurbished electronics, offering renewed phones, laptops, and tablets up to 40% cheaper and 100% more environmentally friendly.",
+    "website": "https://www.refurbed.at",
+    "logo_url": "/logos/refurbed.png",
+    "location": {
+      "address": "Gonzagagasse 11, 1010 Wien",
+      "district": "1",
+      "lat": 48.2147,
+      "lng": 16.3759
+    },
+    "founded_year": 2017,
+    "tags": ["sustainability", "marketplace", "b2c", "climate", "ecommerce"],
+    "funding_stage": "series-c",
+    "total_funding_eur": 54000000,
+    "team_size": "51-200",
+    "connections": [
+      {"target_id": "speedinvest", "relationship": "funded_by"},
+      {"target_id": "evli-growth-partners", "relationship": "funded_by"}
+    ],
+    "social": {
+      "linkedin": "https://www.linkedin.com/company/refurbed",
+      "twitter": "https://twitter.com/refurbed"
+    },
+    "last_updated": "2025-02-24",
+    "data_source": "web_research"
+  },
+  {
+    "id": "tttech-auto",
+    "name": "TTTech Auto",
+    "category": "startup",
+    "subcategory": "mobility",
+    "description": "Platform products and services for system safety and security in software-defined vehicles. Austria's third unicorn.",
+    "website": "https://www.tttech-auto.com",
+    "logo_url": "/logos/tttech.png",
+    "location": {
+      "address": "Operngasse 17-21, 1040 Wien",
+      "district": "4",
+      "lat": 48.1996,
+      "lng": 16.3657
+    },
+    "founded_year": 2018,
+    "tags": ["mobility", "automotive", "deeptech", "b2b", "unicorn", "hardware"],
+    "funding_stage": "series-c",
+    "total_funding_eur": 285000000,
+    "team_size": "200+",
+    "connections": [
+      {"target_id": "tu-wien", "relationship": "spinoff_from"},
+      {"target_id": "audi", "relationship": "funded_by"}
+    ],
+    "social": {
+      "linkedin": "https://www.linkedin.com/company/tttech-auto"
+    },
+    "last_updated": "2025-02-24",
+    "data_source": "web_research"
+  },
+  {
+    "id": "tricentis",
+    "name": "Tricentis",
+    "category": "startup",
+    "subcategory": "saas",
+    "description": "Enterprise software testing solutions that enable high automation rates while minimizing risks. AI-powered continuous testing platform.",
+    "website": "https://www.tricentis.com",
+    "logo_url": "/logos/tricentis.png",
+    "location": {
+      "address": "Leonard-Bernstein-Straße 10, 1220 Wien",
+      "district": "22",
+      "lat": 48.2296,
+      "lng": 16.4122
+    },
+    "founded_year": 2007,
+    "tags": ["saas", "enterprise", "testing", "automation", "b2b", "ai"],
+    "funding_stage": "growth",
+    "total_funding_eur": 165000000,
+    "team_size": "200+",
+    "connections": [
+      {"target_id": "insight-partners", "relationship": "funded_by"}
+    ],
+    "social": {
+      "linkedin": "https://www.linkedin.com/company/tricentis"
+    },
+    "last_updated": "2025-02-24",
+    "data_source": "web_research"
+  },
+  {
+    "id": "mysugr",
+    "name": "mySugr",
+    "category": "startup",
+    "subcategory": "healthtech",
+    "description": "Digital health company simplifying life with diabetes. The mySugr App with integrated medical devices empowers diabetes self-management.",
+    "website": "https://www.mysugr.com",
+    "logo_url": "/logos/mysugr.png",
+    "location": {
+      "address": "Trattnerhof 1, 1010 Wien",
+      "district": "1",
+      "lat": 48.2092,
+      "lng": 16.3718
+    },
+    "founded_year": 2012,
+    "tags": ["healthtech", "medtech", "mobile", "b2c", "diabetes"],
+    "funding_stage": "exit",
+    "total_funding_eur": 8000000,
+    "team_size": "51-200",
+    "connections": [
+      {"target_id": "inits", "relationship": "incubated_by"},
+      {"target_id": "speedinvest", "relationship": "funded_by"}
+    ],
+    "social": {
+      "linkedin": "https://www.linkedin.com/company/mysugr",
+      "twitter": "https://twitter.com/mysaborita"
+    },
+    "last_updated": "2025-02-24",
+    "data_source": "web_research"
+  },
+  {
+    "id": "dynatrace",
+    "name": "Dynatrace",
+    "category": "startup",
+    "subcategory": "saas",
+    "description": "AI-powered software intelligence platform providing application performance monitoring and cloud infrastructure observability.",
+    "website": "https://www.dynatrace.com",
+    "logo_url": "/logos/dynatrace.png",
+    "location": {
+      "address": "Am Europlatz 2, 4020 Linz",
+      "district": "Linz",
+      "lat": 48.2889,
+      "lng": 14.2924
+    },
+    "founded_year": 2005,
+    "tags": ["saas", "enterprise", "monitoring", "ai", "cloud", "b2b"],
+    "funding_stage": "growth",
+    "total_funding_eur": 250000000,
+    "team_size": "200+",
+    "connections": [],
+    "social": {
+      "linkedin": "https://www.linkedin.com/company/dynatrace"
+    },
+    "last_updated": "2025-02-24",
+    "data_source": "web_research"
+  },
+  {
+    "id": "adverity",
+    "name": "Adverity",
+    "category": "startup",
+    "subcategory": "saas",
+    "description": "Marketing data intelligence platform that helps businesses make better decisions by connecting, transforming, and analyzing marketing data.",
+    "website": "https://www.adverity.com",
+    "logo_url": "/logos/adverity.png",
+    "location": {
+      "address": "Handelskai 94-96, 1200 Wien",
+      "district": "20",
+      "lat": 48.2386,
+      "lng": 16.3848
+    },
+    "founded_year": 2015,
+    "tags": ["saas", "marketing", "analytics", "b2b", "data"],
+    "funding_stage": "series-c",
+    "total_funding_eur": 67000000,
+    "team_size": "51-200",
+    "connections": [
+      {"target_id": "speedinvest", "relationship": "funded_by"}
+    ],
+    "social": {
+      "linkedin": "https://www.linkedin.com/company/adverity"
+    },
+    "last_updated": "2025-02-24",
+    "data_source": "web_research"
+  },
+  {
+    "id": "usersnap",
+    "name": "Usersnap",
+    "category": "startup",
+    "subcategory": "saas",
+    "description": "Visual feedback and bug tracking tool that helps product teams collect user insights directly from websites and applications.",
+    "website": "https://www.usersnap.com",
+    "logo_url": "/logos/usersnap.png",
+    "location": {
+      "address": "Linzer Straße 8, 4020 Linz",
+      "district": "Linz",
+      "lat": 48.3069,
+      "lng": 14.2858
+    },
+    "founded_year": 2013,
+    "tags": ["saas", "devtools", "feedback", "b2b", "ux"],
+    "funding_stage": "series-a",
+    "total_funding_eur": 6500000,
+    "team_size": "11-50",
+    "connections": [
+      {"target_id": "speedinvest", "relationship": "funded_by"}
+    ],
+    "social": {
+      "linkedin": "https://www.linkedin.com/company/usersnap"
+    },
+    "last_updated": "2025-02-24",
+    "data_source": "web_research"
+  },
+  {
+    "id": "waterdrop",
+    "name": "Waterdrop",
+    "category": "startup",
+    "subcategory": "sustainability",
+    "description": "Microdrink company offering sustainable drink cubes that dissolve in water, reducing plastic waste from traditional beverages.",
+    "website": "https://www.waterdrop.com",
+    "logo_url": "/logos/waterdrop.png",
+    "location": {
+      "address": "Ungargasse 64-66, 1030 Wien",
+      "district": "3",
+      "lat": 48.1979,
+      "lng": 16.3867
+    },
+    "founded_year": 2016,
+    "tags": ["sustainability", "consumer", "b2c", "foodtech", "ecommerce"],
+    "funding_stage": "series-b",
+    "total_funding_eur": 60000000,
+    "team_size": "51-200",
+    "connections": [],
+    "social": {
+      "linkedin": "https://www.linkedin.com/company/waterdrop"
+    },
+    "last_updated": "2025-02-24",
+    "data_source": "web_research"
+  },
+  {
+    "id": "anyline",
+    "name": "Anyline",
+    "category": "startup",
+    "subcategory": "ai",
+    "description": "Mobile data capture and scanning SDK that uses AI-powered OCR to read text, barcodes, and IDs from smartphone cameras.",
+    "website": "https://www.anyline.com",
+    "logo_url": "/logos/anyline.png",
+    "location": {
+      "address": "Zirkusgasse 13, 1020 Wien",
+      "district": "2",
+      "lat": 48.2177,
+      "lng": 16.3814
+    },
+    "founded_year": 2013,
+    "tags": ["ai", "mobile", "ocr", "b2b", "sdk"],
+    "funding_stage": "series-b",
+    "total_funding_eur": 20000000,
+    "team_size": "51-200",
+    "connections": [
+      {"target_id": "speedinvest", "relationship": "funded_by"}
+    ],
+    "social": {
+      "linkedin": "https://www.linkedin.com/company/anyline"
+    },
+    "last_updated": "2025-02-24",
+    "data_source": "web_research"
+  },
+  {
+    "id": "shpock",
+    "name": "Shpock",
+    "category": "startup",
+    "subcategory": "marketplace",
+    "description": "Mobile marketplace app for buying and selling second-hand items, acquired by Adevinta.",
+    "website": "https://www.shpock.com",
+    "logo_url": "/logos/shpock.png",
+    "location": {
+      "address": "Wollzeile 16, 1010 Wien",
+      "district": "1",
+      "lat": 48.2089,
+      "lng": 16.3771
+    },
+    "founded_year": 2012,
+    "tags": ["marketplace", "mobile", "b2c", "ecommerce", "sustainability"],
+    "funding_stage": "exit",
+    "total_funding_eur": 50000000,
+    "team_size": "51-200",
+    "connections": [
+      {"target_id": "speedinvest", "relationship": "funded_by"}
+    ],
+    "social": {
+      "linkedin": "https://www.linkedin.com/company/shpock"
+    },
+    "last_updated": "2025-02-24",
+    "data_source": "web_research"
+  },
+  {
+    "id": "tourradar",
+    "name": "TourRadar",
+    "category": "startup",
+    "subcategory": "marketplace",
+    "description": "Online marketplace for multi-day organized adventure tours, connecting travelers with tour operators worldwide.",
+    "website": "https://www.tourradar.com",
+    "logo_url": "/logos/tourradar.png",
+    "location": {
+      "address": "Schottenring 16, 1010 Wien",
+      "district": "1",
+      "lat": 48.2147,
+      "lng": 16.3605
+    },
+    "founded_year": 2010,
+    "tags": ["marketplace", "travel", "b2c", "tourism"],
+    "funding_stage": "series-b",
+    "total_funding_eur": 60000000,
+    "team_size": "51-200",
+    "connections": [
+      {"target_id": "speedinvest", "relationship": "funded_by"}
+    ],
+    "social": {
+      "linkedin": "https://www.linkedin.com/company/tourradar"
+    },
+    "last_updated": "2025-02-24",
+    "data_source": "web_research"
+  },
+  {
+    "id": "prewave",
+    "name": "Prewave",
+    "category": "startup",
+    "subcategory": "ai",
+    "description": "AI-powered supply chain risk monitoring platform that detects disruptions and sustainability issues using multilingual news analysis.",
+    "website": "https://www.prewave.ai",
+    "logo_url": "/logos/prewave.png",
+    "location": {
+      "address": "Naglergasse 1-3, 1010 Wien",
+      "district": "1",
+      "lat": 48.2101,
+      "lng": 16.3656
+    },
+    "founded_year": 2017,
+    "tags": ["ai", "supply-chain", "b2b", "sustainability", "risk"],
+    "funding_stage": "series-a",
+    "total_funding_eur": 18000000,
+    "team_size": "11-50",
+    "connections": [
+      {"target_id": "speedinvest", "relationship": "funded_by"},
+      {"target_id": "tu-wien", "relationship": "spinoff_from"}
+    ],
+    "social": {
+      "linkedin": "https://www.linkedin.com/company/prewave"
+    },
+    "last_updated": "2025-02-24",
+    "data_source": "web_research"
+  },
+  {
+    "id": "mostly-ai",
+    "name": "MOSTLY AI",
+    "category": "startup",
+    "subcategory": "ai",
+    "description": "Synthetic data platform that generates privacy-compliant training data for AI and analytics while preserving data utility.",
+    "website": "https://www.mostly.ai",
+    "logo_url": "/logos/mostly-ai.png",
+    "location": {
+      "address": "Lassallestraße 7b, 1020 Wien",
+      "district": "2",
+      "lat": 48.2243,
+      "lng": 16.3912
+    },
+    "founded_year": 2017,
+    "tags": ["ai", "privacy", "data", "b2b", "enterprise"],
+    "funding_stage": "series-b",
+    "total_funding_eur": 31000000,
+    "team_size": "51-200",
+    "connections": [
+      {"target_id": "speedinvest", "relationship": "funded_by"}
+    ],
+    "social": {
+      "linkedin": "https://www.linkedin.com/company/mostly-ai"
+    },
+    "last_updated": "2025-02-24",
+    "data_source": "web_research"
+  },
+  {
+    "id": "storyblok",
+    "name": "Storyblok",
+    "category": "startup",
+    "subcategory": "saas",
+    "description": "Headless CMS that empowers developers and content creators to manage and publish content across all platforms.",
+    "website": "https://www.storyblok.com",
+    "logo_url": "/logos/storyblok.png",
+    "location": {
+      "address": "Herrengasse 6-8, 4020 Linz",
+      "district": "Linz",
+      "lat": 48.3028,
+      "lng": 14.2899
+    },
+    "founded_year": 2017,
+    "tags": ["saas", "cms", "devtools", "b2b", "enterprise"],
+    "funding_stage": "series-c",
+    "total_funding_eur": 80000000,
+    "team_size": "51-200",
+    "connections": [
+      {"target_id": "3vc", "relationship": "funded_by"}
+    ],
+    "social": {
+      "linkedin": "https://www.linkedin.com/company/storyblok"
+    },
+    "last_updated": "2025-02-24",
+    "data_source": "web_research"
+  },
+  {
+    "id": "gropyus",
+    "name": "Gropyus",
+    "category": "startup",
+    "subcategory": "proptech",
+    "description": "Proptech company building affordable, sustainable timber homes using digital twin technology and automated manufacturing.",
+    "website": "https://www.gropyus.com",
+    "logo_url": "/logos/gropyus.png",
+    "location": {
+      "address": "Millennium Tower, Handelskai 94-96, 1200 Wien",
+      "district": "20",
+      "lat": 48.2391,
+      "lng": 16.3851
+    },
+    "founded_year": 2019,
+    "tags": ["proptech", "sustainability", "construction", "deeptech", "climate"],
+    "funding_stage": "series-b",
+    "total_funding_eur": 100000000,
+    "team_size": "51-200",
+    "connections": [],
+    "social": {
+      "linkedin": "https://www.linkedin.com/company/gropyus"
+    },
+    "last_updated": "2025-02-24",
+    "data_source": "web_research"
+  },
+  {
+    "id": "arkeon",
+    "name": "Arkeon",
+    "category": "startup",
+    "subcategory": "foodtech",
+    "description": "Biotechnology company producing food ingredients from CO2 using ancient microorganisms, addressing food security without traditional agriculture.",
+    "website": "https://www.arkeon.bio",
+    "logo_url": "/logos/arkeon.png",
+    "location": {
+      "address": "Technopark Tulln, Konrad-Lorenz-Straße 20, 3430 Tulln",
+      "district": "Tulln",
+      "lat": 48.3289,
+      "lng": 16.0668
+    },
+    "founded_year": 2021,
+    "tags": ["foodtech", "biotech", "climate", "deeptech", "sustainability"],
+    "funding_stage": "seed",
+    "total_funding_eur": 10500000,
+    "team_size": "11-50",
+    "connections": [
+      {"target_id": "boku", "relationship": "spinoff_from"}
+    ],
+    "social": {
+      "linkedin": "https://www.linkedin.com/company/arkeon-bio"
+    },
+    "last_updated": "2025-02-24",
+    "data_source": "web_research"
+  },
+  {
+    "id": "heartbeat-bio",
+    "name": "HeartBeat.bio",
+    "category": "startup",
+    "subcategory": "biotech",
+    "description": "Biotechnology startup advancing heart disease treatments through cardioid technology for faster and more accurate drug testing.",
+    "website": "https://www.heartbeat.bio",
+    "logo_url": "/logos/heartbeat-bio.png",
+    "location": {
+      "address": "Vienna BioCenter, Dr. Bohr-Gasse 3, 1030 Wien",
+      "district": "3",
+      "lat": 48.1891,
+      "lng": 16.4025
+    },
+    "founded_year": 2021,
+    "tags": ["biotech", "healthtech", "deeptech", "medtech"],
+    "funding_stage": "seed",
+    "total_funding_eur": 6000000,
+    "team_size": "11-50",
+    "connections": [
+      {"target_id": "vienna-biocenter", "relationship": "incubated_by"}
+    ],
+    "social": {
+      "linkedin": "https://www.linkedin.com/company/heartbeat-bio"
+    },
+    "last_updated": "2025-02-24",
+    "data_source": "web_research"
+  },
+  {
+    "id": "flinn",
+    "name": "Flinn",
+    "category": "startup",
+    "subcategory": "saas",
+    "description": "Technology platform helping medical technology manufacturers manage compliance with European health and safety regulations.",
+    "website": "https://www.flinn.com",
+    "logo_url": "/logos/flinn.png",
+    "location": {
+      "address": "Siebensterngasse 31, 1070 Wien",
+      "district": "7",
+      "lat": 48.2019,
+      "lng": 16.3494
+    },
+    "founded_year": 2022,
+    "tags": ["saas", "medtech", "compliance", "b2b", "enterprise"],
+    "funding_stage": "seed",
+    "total_funding_eur": 9800000,
+    "team_size": "11-50",
+    "connections": [
+      {"target_id": "speedinvest", "relationship": "funded_by"}
+    ],
+    "social": {
+      "linkedin": "https://www.linkedin.com/company/flinn"
+    },
+    "last_updated": "2025-02-24",
+    "data_source": "web_research"
+  },
+  {
+    "id": "fynk",
+    "name": "Fynk",
+    "category": "startup",
+    "subcategory": "saas",
+    "description": "AI-powered contract management software automating the entire contract lifecycle from creation to signing and management.",
+    "website": "https://www.fynk.com",
+    "logo_url": "/logos/fynk.png",
+    "location": {
+      "address": "Margaretenstraße 70, 1050 Wien",
+      "district": "5",
+      "lat": 48.1919,
+      "lng": 16.3533
+    },
+    "founded_year": 2022,
+    "tags": ["saas", "legaltech", "ai", "b2b", "automation"],
+    "funding_stage": "seed",
+    "total_funding_eur": 3500000,
+    "team_size": "11-50",
+    "connections": [
+      {"target_id": "calm-storm-ventures", "relationship": "funded_by"}
+    ],
+    "social": {
+      "linkedin": "https://www.linkedin.com/company/fynk"
+    },
+    "last_updated": "2025-02-24",
+    "data_source": "web_research"
+  },
+  {
+    "id": "daiki",
+    "name": "Daiki",
+    "category": "startup",
+    "subcategory": "ai",
+    "description": "SaaS platform assisting organizations in implementing AI projects with compliance and governance tools for regulations.",
+    "website": "https://www.daiki.ai",
+    "logo_url": "/logos/daiki.png",
+    "location": {
+      "address": "Praterstraße 1, 1020 Wien",
+      "district": "2",
+      "lat": 48.2167,
+      "lng": 16.3800
+    },
+    "founded_year": 2023,
+    "tags": ["ai", "saas", "compliance", "b2b", "enterprise"],
+    "funding_stage": "seed",
+    "total_funding_eur": 1500000,
+    "team_size": "1-10",
+    "connections": [],
+    "social": {
+      "linkedin": "https://www.linkedin.com/company/daiki-ai"
+    },
+    "last_updated": "2025-02-24",
+    "data_source": "web_research"
+  },
+  {
+    "id": "infrared-city",
+    "name": "Infrared.city",
+    "category": "startup",
+    "subcategory": "ai",
+    "description": "AI-powered platform for intelligent and resilient building design, helping architects make buildings more climate-resilient.",
+    "website": "https://www.infrared.city",
+    "logo_url": "/logos/infrared-city.png",
+    "location": {
+      "address": "Mariahilfer Straße 101, 1060 Wien",
+      "district": "6",
+      "lat": 48.1959,
+      "lng": 16.3469
+    },
+    "founded_year": 2023,
+    "tags": ["ai", "climate", "proptech", "b2b", "sustainability"],
+    "funding_stage": "pre-seed",
+    "total_funding_eur": 1000000,
+    "team_size": "1-10",
+    "connections": [],
+    "social": {
+      "linkedin": "https://www.linkedin.com/company/infrared-city"
+    },
+    "last_updated": "2025-02-24",
+    "data_source": "web_research"
+  },
+  {
+    "id": "twaice",
+    "name": "TWAICE",
+    "category": "startup",
+    "subcategory": "deeptech",
+    "description": "Battery analytics software providing insights into battery health and performance for electric vehicles and energy storage.",
+    "website": "https://www.twaice.com",
+    "logo_url": "/logos/twaice.png",
+    "location": {
+      "address": "Wehrgasse 28, 1050 Wien",
+      "district": "5",
+      "lat": 48.1889,
+      "lng": 16.3567
+    },
+    "founded_year": 2018,
+    "tags": ["deeptech", "energy", "mobility", "b2b", "ai"],
+    "funding_stage": "series-b",
+    "total_funding_eur": 55000000,
+    "team_size": "51-200",
+    "connections": [],
+    "social": {
+      "linkedin": "https://www.linkedin.com/company/twaice"
+    },
+    "last_updated": "2025-02-24",
+    "data_source": "web_research"
+  },
+  {
+    "id": "byrd",
+    "name": "byrd",
+    "category": "startup",
+    "subcategory": "saas",
+    "description": "E-commerce fulfillment platform connecting online shops with a network of fulfillment centers across Europe.",
+    "website": "https://www.getbyrd.com",
+    "logo_url": "/logos/byrd.png",
+    "location": {
+      "address": "Porzellangasse 47, 1090 Wien",
+      "district": "9",
+      "lat": 48.2256,
+      "lng": 16.3567
+    },
+    "founded_year": 2016,
+    "tags": ["saas", "logistics", "ecommerce", "b2b"],
+    "funding_stage": "series-b",
+    "total_funding_eur": 56000000,
+    "team_size": "51-200",
+    "connections": [
+      {"target_id": "speedinvest", "relationship": "funded_by"}
+    ],
+    "social": {
+      "linkedin": "https://www.linkedin.com/company/getbyrd"
+    },
+    "last_updated": "2025-02-24",
+    "data_source": "web_research"
+  },
+  {
+    "id": "wunderkind",
+    "name": "Wunderkind (Butlers Child)",
+    "category": "startup",
+    "subcategory": "ai",
+    "description": "AI-powered virtual assistant platform for children's education and entertainment.",
+    "website": "https://www.wunderkind.co",
+    "logo_url": "/logos/wunderkind.png",
+    "location": {
+      "address": "Burggasse 31, 1070 Wien",
+      "district": "7",
+      "lat": 48.2039,
+      "lng": 16.3467
+    },
+    "founded_year": 2018,
+    "tags": ["ai", "edtech", "b2c", "kids"],
+    "funding_stage": "seed",
+    "total_funding_eur": 2000000,
+    "team_size": "11-50",
+    "connections": [
+      {"target_id": "inits", "relationship": "incubated_by"}
+    ],
+    "social": {
+      "linkedin": "https://www.linkedin.com/company/wunderkind"
+    },
+    "last_updated": "2025-02-24",
+    "data_source": "web_research"
+  },
+  {
+    "id": "plantsome",
+    "name": "Plantsome",
+    "category": "startup",
+    "subcategory": "sustainability",
+    "description": "Urban farming and vertical agriculture technology for sustainable food production in cities.",
+    "website": "https://www.plantsome.at",
+    "logo_url": "/logos/plantsome.png",
+    "location": {
+      "address": "Donau-City-Straße 1, 1220 Wien",
+      "district": "22",
+      "lat": 48.2339,
+      "lng": 16.4099
+    },
+    "founded_year": 2020,
+    "tags": ["sustainability", "foodtech", "climate", "b2b"],
+    "funding_stage": "seed",
+    "total_funding_eur": 1200000,
+    "team_size": "1-10",
+    "connections": [
+      {"target_id": "climate-lab", "relationship": "incubated_by"}
+    ],
+    "social": {
+      "linkedin": "https://www.linkedin.com/company/plantsome"
+    },
+    "last_updated": "2025-02-24",
+    "data_source": "web_research"
+  },
+  {
+    "id": "lindera",
+    "name": "Lindera",
+    "category": "startup",
+    "subcategory": "healthtech",
+    "description": "Mobile motion analysis platform using AI and smartphone cameras to assess fall risk in elderly patients.",
+    "website": "https://www.lindera.de",
+    "logo_url": "/logos/lindera.png",
+    "location": {
+      "address": "Frankenberggasse 14, 1040 Wien",
+      "district": "4",
+      "lat": 48.1978,
+      "lng": 16.3689
+    },
+    "founded_year": 2017,
+    "tags": ["healthtech", "ai", "medtech", "b2b", "mobile"],
+    "funding_stage": "series-a",
+    "total_funding_eur": 10000000,
+    "team_size": "11-50",
+    "connections": [],
+    "social": {
+      "linkedin": "https://www.linkedin.com/company/lindera"
+    },
+    "last_updated": "2025-02-24",
+    "data_source": "web_research"
+  },
+  {
+    "id": "cashpresso",
+    "name": "Cashpresso",
+    "category": "startup",
+    "subcategory": "fintech",
+    "description": "Digital consumer credit platform offering instant online credit lines for purchases at partner merchants.",
+    "website": "https://www.cashpresso.com",
+    "logo_url": "/logos/cashpresso.png",
+    "location": {
+      "address": "Alserbachstraße 5, 1090 Wien",
+      "district": "9",
+      "lat": 48.2219,
+      "lng": 16.3578
+    },
+    "founded_year": 2015,
+    "tags": ["fintech", "credit", "b2c", "mobile"],
+    "funding_stage": "series-a",
+    "total_funding_eur": 15000000,
+    "team_size": "11-50",
+    "connections": [
+      {"target_id": "speedinvest", "relationship": "funded_by"}
+    ],
+    "social": {
+      "linkedin": "https://www.linkedin.com/company/cashpresso"
+    },
+    "last_updated": "2025-02-24",
+    "data_source": "web_research"
+  },
+  {
+    "id": "wikifolio",
+    "name": "wikifolio",
+    "category": "startup",
+    "subcategory": "fintech",
+    "description": "Social trading platform where investors can follow and invest in portfolios created by experienced traders.",
+    "website": "https://www.wikifolio.com",
+    "logo_url": "/logos/wikifolio.png",
+    "location": {
+      "address": "Berggasse 31, 1090 Wien",
+      "district": "9",
+      "lat": 48.2189,
+      "lng": 16.3611
+    },
+    "founded_year": 2012,
+    "tags": ["fintech", "trading", "b2c", "marketplace"],
+    "funding_stage": "series-b",
+    "total_funding_eur": 25000000,
+    "team_size": "51-200",
+    "connections": [
+      {"target_id": "speedinvest", "relationship": "funded_by"}
+    ],
+    "social": {
+      "linkedin": "https://www.linkedin.com/company/wikifolio"
+    },
+    "last_updated": "2025-02-24",
+    "data_source": "web_research"
+  },
+  {
+    "id": "grape",
+    "name": "Grape",
+    "category": "startup",
+    "subcategory": "saas",
+    "description": "Enterprise messaging and collaboration platform with AI-powered automation features.",
+    "website": "https://www.chatgrape.com",
+    "logo_url": "/logos/grape.png",
+    "location": {
+      "address": "Ungargasse 59-61, 1030 Wien",
+      "district": "3",
+      "lat": 48.1989,
+      "lng": 16.3856
+    },
+    "founded_year": 2014,
+    "tags": ["saas", "collaboration", "enterprise", "b2b"],
+    "funding_stage": "seed",
+    "total_funding_eur": 3000000,
+    "team_size": "11-50",
+    "connections": [
+      {"target_id": "inits", "relationship": "incubated_by"}
+    ],
+    "social": {
+      "linkedin": "https://www.linkedin.com/company/chatgrape"
+    },
+    "last_updated": "2025-02-24",
+    "data_source": "web_research"
+  },
+  {
+    "id": "robo-wunderkind",
+    "name": "Robo Wunderkind",
+    "category": "startup",
+    "subcategory": "edtech",
+    "description": "Educational robotics kits that teach children coding and STEM skills through hands-on building and programming.",
+    "website": "https://www.robowunderkind.com",
+    "logo_url": "/logos/robo-wunderkind.png",
+    "location": {
+      "address": "Schlickgasse 4, 1090 Wien",
+      "district": "9",
+      "lat": 48.2234,
+      "lng": 16.3589
+    },
+    "founded_year": 2014,
+    "tags": ["edtech", "robotics", "hardware", "b2c", "kids"],
+    "funding_stage": "series-a",
+    "total_funding_eur": 5000000,
+    "team_size": "11-50",
+    "connections": [
+      {"target_id": "aws-gruenderfonds", "relationship": "funded_by"}
+    ],
+    "social": {
+      "linkedin": "https://www.linkedin.com/company/robowunderkind"
+    },
+    "last_updated": "2025-02-24",
+    "data_source": "web_research"
+  },
+  {
+    "id": "storebox",
+    "name": "Storebox",
+    "category": "startup",
+    "subcategory": "proptech",
+    "description": "Self-storage network using converted retail spaces, accessible 24/7 via smartphone.",
+    "website": "https://www.yourstorebox.com",
+    "logo_url": "/logos/storebox.png",
+    "location": {
+      "address": "Favoritenstraße 18, 1040 Wien",
+      "district": "4",
+      "lat": 48.1956,
+      "lng": 16.3689
+    },
+    "founded_year": 2016,
+    "tags": ["proptech", "logistics", "b2c", "mobile"],
+    "funding_stage": "series-a",
+    "total_funding_eur": 12000000,
+    "team_size": "11-50",
+    "connections": [
+      {"target_id": "speedinvest", "relationship": "funded_by"}
+    ],
+    "social": {
+      "linkedin": "https://www.linkedin.com/company/storebox"
+    },
+    "last_updated": "2025-02-24",
+    "data_source": "web_research"
+  },
+  {
+    "id": "greenstorm",
+    "name": "Greenstorm",
+    "category": "startup",
+    "subcategory": "mobility",
+    "description": "Second-life marketplace for e-bikes, offering pre-owned electric bikes from hotel partners at reduced prices.",
+    "website": "https://www.greenstorm.eu",
+    "logo_url": "/logos/greenstorm.png",
+    "location": {
+      "address": "Zollamtsstraße 7, 1030 Wien",
+      "district": "3",
+      "lat": 48.2067,
+      "lng": 16.3856
+    },
+    "founded_year": 2016,
+    "tags": ["mobility", "sustainability", "marketplace", "b2c"],
+    "funding_stage": "series-a",
+    "total_funding_eur": 8000000,
+    "team_size": "11-50",
+    "connections": [],
+    "social": {
+      "linkedin": "https://www.linkedin.com/company/greenstorm"
+    },
+    "last_updated": "2025-02-24",
+    "data_source": "web_research"
+  },
+  {
+    "id": "eversports",
+    "name": "Eversports",
+    "category": "startup",
+    "subcategory": "saas",
+    "description": "Sport and wellness booking platform for studios, connecting providers with customers for fitness, yoga, and wellness.",
+    "website": "https://www.eversports.at",
+    "logo_url": "/logos/eversports.png",
+    "location": {
+      "address": "Marxergasse 24, 1030 Wien",
+      "district": "3",
+      "lat": 48.2056,
+      "lng": 16.3878
+    },
+    "founded_year": 2013,
+    "tags": ["saas", "fitness", "marketplace", "b2b", "b2c"],
+    "funding_stage": "series-b",
+    "total_funding_eur": 15000000,
+    "team_size": "51-200",
+    "connections": [
+      {"target_id": "aws-gruenderfonds", "relationship": "funded_by"}
+    ],
+    "social": {
+      "linkedin": "https://www.linkedin.com/company/eversports"
+    },
+    "last_updated": "2025-02-24",
+    "data_source": "web_research"
+  },
+  {
+    "id": "igevia",
+    "name": "igevia",
+    "category": "startup",
+    "subcategory": "legaltech",
+    "description": "Legal tech platform digitizing inheritance and estate planning processes.",
+    "website": "https://www.igevia.com",
+    "logo_url": "/logos/igevia.png",
+    "location": {
+      "address": "Schottengasse 4, 1010 Wien",
+      "district": "1",
+      "lat": 48.2123,
+      "lng": 16.3656
+    },
+    "founded_year": 2019,
+    "tags": ["legaltech", "saas", "b2c", "fintech"],
+    "funding_stage": "seed",
+    "total_funding_eur": 2500000,
+    "team_size": "11-50",
+    "connections": [
+      {"target_id": "inits", "relationship": "incubated_by"}
+    ],
+    "social": {
+      "linkedin": "https://www.linkedin.com/company/igevia"
+    },
+    "last_updated": "2025-02-24",
+    "data_source": "web_research"
+  },
+  {
+    "id": "kununu",
+    "name": "kununu",
+    "category": "startup",
+    "subcategory": "saas",
+    "description": "Employer review platform helping job seekers find the right workplace through company ratings and reviews.",
+    "website": "https://www.kununu.com",
+    "logo_url": "/logos/kununu.png",
+    "location": {
+      "address": "Schottenring 2-6, 1010 Wien",
+      "district": "1",
+      "lat": 48.2156,
+      "lng": 16.3589
+    },
+    "founded_year": 2007,
+    "tags": ["saas", "hr", "marketplace", "b2c", "b2b"],
+    "funding_stage": "exit",
+    "total_funding_eur": 30000000,
+    "team_size": "51-200",
+    "connections": [],
+    "social": {
+      "linkedin": "https://www.linkedin.com/company/kununu"
+    },
+    "last_updated": "2025-02-24",
+    "data_source": "web_research"
+  },
+  {
+    "id": "checkrobin",
+    "name": "checkrobin",
+    "category": "startup",
+    "subcategory": "saas",
+    "description": "Shipping comparison platform helping businesses optimize logistics costs by comparing carrier rates.",
+    "website": "https://www.checkrobin.com",
+    "logo_url": "/logos/checkrobin.png",
+    "location": {
+      "address": "Wiedner Hauptstraße 65, 1040 Wien",
+      "district": "4",
+      "lat": 48.1934,
+      "lng": 16.3656
+    },
+    "founded_year": 2016,
+    "tags": ["saas", "logistics", "b2b", "marketplace"],
+    "funding_stage": "seed",
+    "total_funding_eur": 1500000,
+    "team_size": "11-50",
+    "connections": [
+      {"target_id": "inits", "relationship": "incubated_by"}
+    ],
+    "social": {
+      "linkedin": "https://www.linkedin.com/company/checkrobin"
+    },
+    "last_updated": "2025-02-24",
+    "data_source": "web_research"
+  },
+  {
+    "id": "vienna-scientific",
+    "name": "Vienna Scientific Instruments",
+    "category": "startup",
+    "subcategory": "deeptech",
+    "description": "Advanced scientific instruments for electron microscopy and materials characterization.",
+    "website": "https://www.viennascientific.at",
+    "logo_url": "/logos/vienna-scientific.png",
+    "location": {
+      "address": "Gutheil-Schoder-Gasse 17, 1100 Wien",
+      "district": "10",
+      "lat": 48.1678,
+      "lng": 16.3389
+    },
+    "founded_year": 2015,
+    "tags": ["deeptech", "hardware", "research", "b2b"],
+    "funding_stage": "seed",
+    "total_funding_eur": 3000000,
+    "team_size": "11-50",
+    "connections": [
+      {"target_id": "tu-wien", "relationship": "spinoff_from"}
+    ],
+    "social": {
+      "linkedin": "https://www.linkedin.com/company/vienna-scientific"
+    },
+    "last_updated": "2025-02-24",
+    "data_source": "web_research"
+  },
+  {
+    "id": "ribbon-biolabs",
+    "name": "Ribbon Biolabs",
+    "category": "startup",
+    "subcategory": "biotech",
+    "description": "DNA synthesis company using enzymatic methods to produce long synthetic DNA for research and therapeutics.",
+    "website": "https://www.ribbonbiolabs.com",
+    "logo_url": "/logos/ribbon-biolabs.png",
+    "location": {
+      "address": "Vienna BioCenter, Dr. Bohr-Gasse 9, 1030 Wien",
+      "district": "3",
+      "lat": 48.1889,
+      "lng": 16.4019
+    },
+    "founded_year": 2018,
+    "tags": ["biotech", "deeptech", "research", "b2b"],
+    "funding_stage": "series-a",
+    "total_funding_eur": 18000000,
+    "team_size": "11-50",
+    "connections": [
+      {"target_id": "vienna-biocenter", "relationship": "incubated_by"},
+      {"target_id": "speedinvest", "relationship": "funded_by"}
+    ],
+    "social": {
+      "linkedin": "https://www.linkedin.com/company/ribbon-biolabs"
+    },
+    "last_updated": "2025-02-24",
+    "data_source": "web_research"
+  },
+  {
+    "id": "contextflow",
+    "name": "contextflow",
+    "category": "startup",
+    "subcategory": "ai",
+    "description": "AI-powered medical imaging search engine helping radiologists find similar cases and improve diagnoses.",
+    "website": "https://www.contextflow.com",
+    "logo_url": "/logos/contextflow.png",
+    "location": {
+      "address": "Nordbahnstraße 36, 1020 Wien",
+      "district": "2",
+      "lat": 48.2278,
+      "lng": 16.3878
+    },
+    "founded_year": 2016,
+    "tags": ["ai", "healthtech", "medtech", "b2b", "imaging"],
+    "funding_stage": "series-a",
+    "total_funding_eur": 8000000,
+    "team_size": "11-50",
+    "connections": [
+      {"target_id": "tu-wien", "relationship": "spinoff_from"},
+      {"target_id": "inits", "relationship": "incubated_by"}
+    ],
+    "social": {
+      "linkedin": "https://www.linkedin.com/company/contextflow"
+    },
+    "last_updated": "2025-02-24",
+    "data_source": "web_research"
+  },
+  {
+    "id": "leftshift-one",
+    "name": "LeftShift One",
+    "category": "startup",
+    "subcategory": "ai",
+    "description": "Enterprise AI platform for building and deploying custom AI applications without code.",
+    "website": "https://www.leftshift.one",
+    "logo_url": "/logos/leftshift-one.png",
+    "location": {
+      "address": "Seilerstätte 16, 1010 Wien",
+      "district": "1",
+      "lat": 48.2067,
+      "lng": 16.3756
+    },
+    "founded_year": 2017,
+    "tags": ["ai", "enterprise", "no-code", "b2b", "saas"],
+    "funding_stage": "seed",
+    "total_funding_eur": 4000000,
+    "team_size": "11-50",
+    "connections": [
+      {"target_id": "aws-gruenderfonds", "relationship": "funded_by"}
+    ],
+    "social": {
+      "linkedin": "https://www.linkedin.com/company/leftshift-one"
+    },
+    "last_updated": "2025-02-24",
+    "data_source": "web_research"
+  },
+  {
+    "id": "kompany",
+    "name": "kompany",
+    "category": "startup",
+    "subcategory": "fintech",
+    "description": "RegTech company providing business data and KYC compliance solutions using official register data worldwide.",
+    "website": "https://www.kompany.com",
+    "logo_url": "/logos/kompany.png",
+    "location": {
+      "address": "Neutorgasse 12, 1010 Wien",
+      "district": "1",
+      "lat": 48.2134,
+      "lng": 16.3656
+    },
+    "founded_year": 2012,
+    "tags": ["fintech", "regtech", "compliance", "b2b", "data"],
+    "funding_stage": "series-b",
+    "total_funding_eur": 22000000,
+    "team_size": "51-200",
+    "connections": [
+      {"target_id": "speedinvest", "relationship": "funded_by"}
+    ],
+    "social": {
+      "linkedin": "https://www.linkedin.com/company/kompany"
+    },
+    "last_updated": "2025-02-24",
+    "data_source": "web_research"
+  },
+  {
+    "id": "diagnosia",
+    "name": "Diagnosia",
+    "category": "startup",
+    "subcategory": "healthtech",
+    "description": "Digital drug information platform providing healthcare professionals with up-to-date medication data.",
+    "website": "https://www.diagnosia.com",
+    "logo_url": "/logos/diagnosia.png",
+    "location": {
+      "address": "Schlüsselgasse 4, 1040 Wien",
+      "district": "4",
+      "lat": 48.1945,
+      "lng": 16.3678
+    },
+    "founded_year": 2009,
+    "tags": ["healthtech", "medtech", "saas", "b2b"],
+    "funding_stage": "series-a",
+    "total_funding_eur": 6000000,
+    "team_size": "11-50",
+    "connections": [
+      {"target_id": "speedinvest", "relationship": "funded_by"}
+    ],
+    "social": {
+      "linkedin": "https://www.linkedin.com/company/diagnosia"
+    },
+    "last_updated": "2025-02-24",
+    "data_source": "web_research"
+  },
+  {
+    "id": "finabro",
+    "name": "finabro",
+    "category": "startup",
+    "subcategory": "fintech",
+    "description": "Digital asset management platform for pension and savings products using robo-advisory technology.",
+    "website": "https://www.finabro.at",
+    "logo_url": "/logos/finabro.png",
+    "location": {
+      "address": "Oppolzergasse 6, 1010 Wien",
+      "district": "1",
+      "lat": 48.2089,
+      "lng": 16.3611
+    },
+    "founded_year": 2016,
+    "tags": ["fintech", "wealthtech", "b2c", "saas"],
+    "funding_stage": "seed",
+    "total_funding_eur": 2000000,
+    "team_size": "11-50",
+    "connections": [
+      {"target_id": "aws-gruenderfonds", "relationship": "funded_by"}
+    ],
+    "social": {
+      "linkedin": "https://www.linkedin.com/company/finabro"
+    },
+    "last_updated": "2025-02-24",
+    "data_source": "web_research"
+  },
+  {
+    "id": "grape-up",
+    "name": "Grape Up",
+    "category": "startup",
+    "subcategory": "saas",
+    "description": "Cloud-native software development services and DevOps consulting for enterprise clients.",
+    "website": "https://www.grapeup.com",
+    "logo_url": "/logos/grape-up.png",
+    "location": {
+      "address": "Kärntner Ring 5-7, 1010 Wien",
+      "district": "1",
+      "lat": 48.2034,
+      "lng": 16.3712
+    },
+    "founded_year": 2014,
+    "tags": ["saas", "devtools", "cloud", "b2b", "consulting"],
+    "funding_stage": "series-a",
+    "total_funding_eur": 5000000,
+    "team_size": "51-200",
+    "connections": [],
+    "social": {
+      "linkedin": "https://www.linkedin.com/company/grapeup"
+    },
+    "last_updated": "2025-02-24",
+    "data_source": "web_research"
+  },
+  {
+    "id": "swat-io",
+    "name": "Swat.io",
+    "category": "startup",
+    "subcategory": "saas",
+    "description": "Social media management platform for enterprises with content planning, publishing, and analytics.",
+    "website": "https://www.swat.io",
+    "logo_url": "/logos/swat-io.png",
+    "location": {
+      "address": "Rochusplatz 1, 1030 Wien",
+      "district": "3",
+      "lat": 48.2089,
+      "lng": 16.3978
+    },
+    "founded_year": 2012,
+    "tags": ["saas", "marketing", "social-media", "b2b", "enterprise"],
+    "funding_stage": "series-a",
+    "total_funding_eur": 3500000,
+    "team_size": "11-50",
+    "connections": [
+      {"target_id": "speedinvest", "relationship": "funded_by"}
+    ],
+    "social": {
+      "linkedin": "https://www.linkedin.com/company/swat-io"
+    },
+    "last_updated": "2025-02-24",
+    "data_source": "web_research"
+  },
+  {
+    "id": "medbee",
+    "name": "medbee",
+    "category": "startup",
+    "subcategory": "healthtech",
+    "description": "Digital health platform connecting patients with medical specialists for second opinions.",
+    "website": "https://www.medbee.at",
+    "logo_url": "/logos/medbee.png",
+    "location": {
+      "address": "Singerstraße 4, 1010 Wien",
+      "district": "1",
+      "lat": 48.2056,
+      "lng": 16.3734
+    },
+    "founded_year": 2018,
+    "tags": ["healthtech", "medtech", "marketplace", "b2c"],
+    "funding_stage": "seed",
+    "total_funding_eur": 1500000,
+    "team_size": "11-50",
+    "connections": [
+      {"target_id": "health-hub-vienna", "relationship": "incubated_by"}
+    ],
+    "social": {
+      "linkedin": "https://www.linkedin.com/company/medbee"
+    },
+    "last_updated": "2025-02-24",
+    "data_source": "web_research"
+  },
+  {
+    "id": "genspeed",
+    "name": "Genspeed Biotech",
+    "category": "startup",
+    "subcategory": "biotech",
+    "description": "Molecular diagnostics company developing rapid and accurate genetic testing solutions.",
+    "website": "https://www.genspeed-biotech.com",
+    "logo_url": "/logos/genspeed.png",
+    "location": {
+      "address": "Am Grünen Prater 2, 1020 Wien",
+      "district": "2",
+      "lat": 48.2167,
+      "lng": 16.3967
+    },
+    "founded_year": 2015,
+    "tags": ["biotech", "diagnostics", "deeptech", "b2b"],
+    "funding_stage": "series-a",
+    "total_funding_eur": 7000000,
+    "team_size": "11-50",
+    "connections": [
+      {"target_id": "inits", "relationship": "incubated_by"},
+      {"target_id": "aws-gruenderfonds", "relationship": "funded_by"}
+    ],
+    "social": {
+      "linkedin": "https://www.linkedin.com/company/genspeed-biotech"
+    },
+    "last_updated": "2025-02-24",
+    "data_source": "web_research"
+  }
+]

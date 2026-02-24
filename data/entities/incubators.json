@@ -1,0 +1,309 @@
+[
+  {
+    "id": "inits",
+    "name": "INiTS",
+    "category": "incubator",
+    "subcategory": "other",
+    "description": "Vienna's high-tech incubator, ranked 3rd best academic incubator in Europe. 18-month program with up to €100,000 STARTKapital.",
+    "website": "https://www.inits.at",
+    "logo_url": "/logos/inits.png",
+    "location": {
+      "address": "Währinger Straße 29, 1090 Wien",
+      "district": "9",
+      "lat": 48.2189,
+      "lng": 16.3534
+    },
+    "founded_year": 2002,
+    "tags": ["academic", "hightech", "research", "university"],
+    "funding_stage": null,
+    "total_funding_eur": null,
+    "team_size": "11-50",
+    "connections": [
+      {"target_id": "tu-wien", "relationship": "partnered_with"},
+      {"target_id": "uni-wien", "relationship": "partnered_with"},
+      {"target_id": "wirtschaftsagentur-wien", "relationship": "partnered_with"},
+      {"target_id": "mysugr", "relationship": "incubated_by"},
+      {"target_id": "contextflow", "relationship": "incubated_by"},
+      {"target_id": "grape", "relationship": "incubated_by"},
+      {"target_id": "igevia", "relationship": "incubated_by"},
+      {"target_id": "checkrobin", "relationship": "incubated_by"},
+      {"target_id": "genspeed", "relationship": "incubated_by"},
+      {"target_id": "wunderkind", "relationship": "incubated_by"}
+    ],
+    "social": {
+      "linkedin": "https://www.linkedin.com/company/inits"
+    },
+    "last_updated": "2025-02-24",
+    "data_source": "web_research"
+  },
+  {
+    "id": "wexelerate",
+    "name": "weXelerate",
+    "category": "incubator",
+    "subcategory": "other",
+    "description": "Largest corporate accelerator hub in CEE with 9,000 sqm. Supports 100 most promising European startups annually.",
+    "website": "https://www.wexelerate.com",
+    "logo_url": "/logos/wexelerate.png",
+    "location": {
+      "address": "Praterstraße 1, 1020 Wien",
+      "district": "2",
+      "lat": 48.2178,
+      "lng": 16.3823
+    },
+    "founded_year": 2016,
+    "tags": ["corporate", "accelerator", "innovation", "energy", "fintech", "industry4.0"],
+    "funding_stage": null,
+    "total_funding_eur": null,
+    "team_size": "11-50",
+    "connections": [],
+    "social": {
+      "linkedin": "https://www.linkedin.com/company/wexelerate"
+    },
+    "last_updated": "2025-02-24",
+    "data_source": "web_research"
+  },
+  {
+    "id": "i2c-tu-wien",
+    "name": "i2c - Innovation Incubation Center",
+    "category": "incubator",
+    "subcategory": "other",
+    "description": "TU Wien's accelerator offering premium hands-on entrepreneurship program for university students.",
+    "website": "https://i2c.tuwien.ac.at",
+    "logo_url": "/logos/i2c.png",
+    "location": {
+      "address": "Karlsplatz 13, 1040 Wien",
+      "district": "4",
+      "lat": 48.1989,
+      "lng": 16.3689
+    },
+    "founded_year": 2016,
+    "tags": ["academic", "university", "entrepreneurship", "technical"],
+    "funding_stage": null,
+    "total_funding_eur": null,
+    "team_size": "1-10",
+    "connections": [
+      {"target_id": "tu-wien", "relationship": "partnered_with"}
+    ],
+    "social": {
+      "linkedin": "https://www.linkedin.com/company/innovation-incubation-center"
+    },
+    "last_updated": "2025-02-24",
+    "data_source": "web_research"
+  },
+  {
+    "id": "vienna-biocenter",
+    "name": "Vienna BioCenter",
+    "category": "incubator",
+    "subcategory": "biotech",
+    "description": "One of Europe's leading life sciences hubs with research institutes, biotech companies, and startup support.",
+    "website": "https://www.viennabiocenter.org",
+    "logo_url": "/logos/vbc.png",
+    "location": {
+      "address": "Dr. Bohr-Gasse 3, 1030 Wien",
+      "district": "3",
+      "lat": 48.1891,
+      "lng": 16.4025
+    },
+    "founded_year": 1988,
+    "tags": ["biotech", "life-sciences", "research", "academic"],
+    "funding_stage": null,
+    "total_funding_eur": null,
+    "team_size": "200+",
+    "connections": [
+      {"target_id": "heartbeat-bio", "relationship": "incubated_by"},
+      {"target_id": "ribbon-biolabs", "relationship": "incubated_by"}
+    ],
+    "social": {
+      "linkedin": "https://www.linkedin.com/company/vienna-biocenter"
+    },
+    "last_updated": "2025-02-24",
+    "data_source": "web_research"
+  },
+  {
+    "id": "climate-lab",
+    "name": "Climate Lab",
+    "category": "incubator",
+    "subcategory": "climate",
+    "description": "Innovation hub for climate and sustainability startups, connecting founders with corporates and investors.",
+    "website": "https://www.climatelab.at",
+    "logo_url": "/logos/climatelab.png",
+    "location": {
+      "address": "Spittelauer Lände 45, 1090 Wien",
+      "district": "9",
+      "lat": 48.2312,
+      "lng": 16.3567
+    },
+    "founded_year": 2021,
+    "tags": ["climate", "sustainability", "green", "impact"],
+    "funding_stage": null,
+    "total_funding_eur": null,
+    "team_size": "11-50",
+    "connections": [
+      {"target_id": "plantsome", "relationship": "incubated_by"}
+    ],
+    "social": {
+      "linkedin": "https://www.linkedin.com/company/climate-lab"
+    },
+    "last_updated": "2025-02-24",
+    "data_source": "web_research"
+  },
+  {
+    "id": "health-hub-vienna",
+    "name": "Health Hub Vienna",
+    "category": "incubator",
+    "subcategory": "healthtech",
+    "description": "Accelerator program for digital health startups, run in partnership with INiTS with over 15 years track record.",
+    "website": "https://www.healthhubvienna.com",
+    "logo_url": "/logos/health-hub.png",
+    "location": {
+      "address": "Währinger Straße 29, 1090 Wien",
+      "district": "9",
+      "lat": 48.2189,
+      "lng": 16.3534
+    },
+    "founded_year": 2018,
+    "tags": ["healthtech", "medtech", "digital-health", "life-sciences"],
+    "funding_stage": null,
+    "total_funding_eur": null,
+    "team_size": "1-10",
+    "connections": [
+      {"target_id": "inits", "relationship": "partnered_with"},
+      {"target_id": "medbee", "relationship": "incubated_by"}
+    ],
+    "social": {
+      "linkedin": "https://www.linkedin.com/company/health-hub-vienna"
+    },
+    "last_updated": "2025-02-24",
+    "data_source": "web_research"
+  },
+  {
+    "id": "founders-lane",
+    "name": "Founder's Lane",
+    "category": "incubator",
+    "subcategory": "other",
+    "description": "Creative industries accelerator supporting startups at the intersection of creativity, technology, and business.",
+    "website": "https://www.founderslane.com",
+    "logo_url": "/logos/founders-lane.png",
+    "location": {
+      "address": "Museumsquartier, Museumsplatz 1, 1070 Wien",
+      "district": "7",
+      "lat": 48.2034,
+      "lng": 16.3589
+    },
+    "founded_year": 2019,
+    "tags": ["creative", "cultural", "media", "design"],
+    "funding_stage": null,
+    "total_funding_eur": null,
+    "team_size": "1-10",
+    "connections": [],
+    "social": {
+      "linkedin": "https://www.linkedin.com/company/founders-lane"
+    },
+    "last_updated": "2025-02-24",
+    "data_source": "web_research"
+  },
+  {
+    "id": "accent",
+    "name": "accent Inkubator",
+    "category": "incubator",
+    "subcategory": "other",
+    "description": "Business incubator for technology startups in Lower Austria, providing coaching, networking, and funding access.",
+    "website": "https://www.accent.at",
+    "logo_url": "/logos/accent.png",
+    "location": {
+      "address": "Hafenstraße 47-51, 3500 Krems",
+      "district": "Krems",
+      "lat": 48.4096,
+      "lng": 15.5908
+    },
+    "founded_year": 1998,
+    "tags": ["technology", "coaching", "lower-austria"],
+    "funding_stage": null,
+    "total_funding_eur": null,
+    "team_size": "11-50",
+    "connections": [],
+    "social": {
+      "linkedin": "https://www.linkedin.com/company/accent-inkubator"
+    },
+    "last_updated": "2025-02-24",
+    "data_source": "web_research"
+  },
+  {
+    "id": "startup-salzburg",
+    "name": "Startup Salzburg",
+    "category": "incubator",
+    "subcategory": "other",
+    "description": "Salzburg's startup ecosystem hub providing acceleration, events, and networking for founders.",
+    "website": "https://www.startup-salzburg.at",
+    "logo_url": "/logos/startup-salzburg.png",
+    "location": {
+      "address": "Jakob-Haringer-Straße 5, 5020 Salzburg",
+      "district": "Salzburg",
+      "lat": 47.8227,
+      "lng": 13.0405
+    },
+    "founded_year": 2016,
+    "tags": ["regional", "salzburg", "ecosystem"],
+    "funding_stage": null,
+    "total_funding_eur": null,
+    "team_size": "1-10",
+    "connections": [],
+    "social": {
+      "linkedin": "https://www.linkedin.com/company/startup-salzburg"
+    },
+    "last_updated": "2025-02-24",
+    "data_source": "web_research"
+  },
+  {
+    "id": "tech2b",
+    "name": "tech2b Inkubator",
+    "category": "incubator",
+    "subcategory": "other",
+    "description": "Upper Austria's technology incubator supporting high-tech startups with coaching and funding.",
+    "website": "https://www.tech2b.at",
+    "logo_url": "/logos/tech2b.png",
+    "location": {
+      "address": "Hafenstraße 47-51, 4020 Linz",
+      "district": "Linz",
+      "lat": 48.3069,
+      "lng": 14.2858
+    },
+    "founded_year": 2002,
+    "tags": ["technology", "upper-austria", "linz"],
+    "funding_stage": null,
+    "total_funding_eur": null,
+    "team_size": "11-50",
+    "connections": [],
+    "social": {
+      "linkedin": "https://www.linkedin.com/company/tech2b"
+    },
+    "last_updated": "2025-02-24",
+    "data_source": "web_research"
+  },
+  {
+    "id": "science-park-graz",
+    "name": "Science Park Graz",
+    "category": "incubator",
+    "subcategory": "other",
+    "description": "Styria's leading technology incubator supporting university spinoffs and tech startups.",
+    "website": "https://www.sciencepark.at",
+    "logo_url": "/logos/science-park-graz.png",
+    "location": {
+      "address": "Stremayrgasse 16, 8010 Graz",
+      "district": "Graz",
+      "lat": 47.0588,
+      "lng": 15.4594
+    },
+    "founded_year": 2002,
+    "tags": ["academic", "technology", "styria", "graz"],
+    "funding_stage": null,
+    "total_funding_eur": null,
+    "team_size": "11-50",
+    "connections": [],
+    "social": {
+      "linkedin": "https://www.linkedin.com/company/science-park-graz"
+    },
+    "last_updated": "2025-02-24",
+    "data_source": "web_research"
+  }
+]
